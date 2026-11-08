@@ -1,0 +1,7 @@
+portfolio,design,regression,months,slope,hac_lo,hac_hi,block_boot_lo,block_boot_hi,corr
+Lending Club,-,coverage error on monthly gap,36,-0.65188,-0.68762,-0.61614,-0.717,-0.59615,-0.98135
+Lending Club,-,coverage error on calibration age (per year),36,-1.27488,-1.53309,-1.01666,-1.87907,-1.10048,-0.91438
+Prosper,B,coverage error on monthly gap,15,-0.20387,-0.31691,-0.09084,-0.40377,-0.05993,-0.53775
+Prosper,B,coverage error on calibration age (per year),15,1.48084,0.30685,2.65483,-0.7447,5.26423,0.47141
+Prosper,A,coverage error on monthly gap,22,-0.7105,-1.0282,-0.3928,-0.86449,-0.29435,-0.88852
+Prosper,A,coverage error on calibration age (per year),22,4.70199,1.84698,7.557,-1.43548,7.00205,0.58593

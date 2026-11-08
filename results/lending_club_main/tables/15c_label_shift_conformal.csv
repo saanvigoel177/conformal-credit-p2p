@@ -1,0 +1,17 @@
+method,year,cov,cov_default,cov_nondefault,size,mean_prior_used,realised_prior
+Static (2012 threshold),2013,0.92097,0.3513,1.0,1.20997,,0.12183
+Static (2012 threshold),2014,0.90917,0.30021,1.0,1.1824,,0.1298
+Static (2012 threshold),2015,0.89237,0.25633,1.0,1.15067,,0.14473
+Static (2012 threshold),All,0.9075,0.29989,1.0,1.18101,,0.13212
+"Label-shift weighted, EM prior (label-free)",2013,0.9685,0.74145,1.0,1.55783,0.34103,0.12183
+"Label-shift weighted, EM prior (label-free)",2014,0.93433,0.49409,1.0,1.3283,0.19186,0.1298
+"Label-shift weighted, EM prior (label-free)",2015,0.80423,0.00599,0.93932,0.9343,0.03431,0.14473
+"Label-shift weighted, EM prior (label-free)",All,0.90236,0.39189,0.98007,1.27348,0.18907,0.13212
+"Label-shift weighted, BBSE prior (label-free)",2013,0.76813,0.0,0.8747,0.85993,0.01,0.12183
+"Label-shift weighted, BBSE prior (label-free)",2014,0.79133,0.06857,0.89914,0.9437,0.08123,0.1298
+"Label-shift weighted, BBSE prior (label-free)",2015,0.86847,0.36757,0.95323,1.24133,0.38701,0.14473
+"Label-shift weighted, BBSE prior (label-free)",All,0.80931,0.15667,0.90867,1.01499,0.15941,0.13212
+"Label-shift weighted, oracle yearly prior",2013,0.91067,0.26676,1.0,1.15367,0.12183,0.12183
+"Label-shift weighted, oracle yearly prior",2014,0.90527,0.27016,1.0,1.16113,0.1298,0.1298
+"Label-shift weighted, oracle yearly prior",2015,0.89767,0.29295,1.0,1.17763,0.14473,0.14473
+"Label-shift weighted, oracle yearly prior",All,0.90453,0.27744,1.0,1.16414,0.13212,0.13212

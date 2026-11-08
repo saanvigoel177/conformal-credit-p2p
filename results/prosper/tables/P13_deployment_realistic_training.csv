@@ -1,0 +1,13 @@
+design,pipeline,variant,n_train,train_default,n_calib,calib_default,gap_pp_2010,static_cov_2010,static_cov_default_2010,gap_pp_2011Q1,static_cov_2011Q1,static_cov_default_2011Q1,gap_pp_2009,static_cov_2009,static_cov_default_2009
+B,baseline: P0 + LGBM default,V0 all labels (as in the main design),28913,0.36859,2047,0.15193,-10.8101,0.91373,0.5123,-11.51251,0.92582,0.66667,,,
+B,baseline: P0 + LGBM default,"V1 train on labels known at deployment, calibrate on all",17581,0.48592,2047,0.15193,-25.52711,0.88998,0.83743,-28.56511,0.88364,0.94898,,,
+B,baseline: P0 + LGBM default,V2 train and calibrate on labels known at deployment,17581,0.48592,59,0.01695,-25.52711,0.74942,0.7861,-28.56511,0.69455,0.91837,,,
+B,selected: P3 applicant-only rich + LGBM regularised,V0 all labels (as in the main design),28913,0.36859,2047,0.15193,-2.64577,0.89623,0.37861,0.00201,0.88873,0.47959,,,
+B,selected: P3 applicant-only rich + LGBM regularised,"V1 train on labels known at deployment, calibrate on all",17581,0.48592,2047,0.15193,-14.08191,0.90695,0.55936,-13.90783,0.91345,0.72109,,,
+B,selected: P3 applicant-only rich + LGBM regularised,V2 train and calibrate on labels known at deployment,17581,0.48592,59,0.01695,-14.08191,0.74763,0.23529,-13.90783,0.68582,0.29932,,,
+A,baseline: P0 + LGBM default,V0 all labels (as in the main design),17362,0.39448,11551,0.32967,-13.16974,0.95535,0.74973,-15.22287,0.97745,0.90136,-11.12305,0.94724,0.66238
+A,baseline: P0 + LGBM default,"V1 train on labels known at deployment, calibrate on all",8338,0.52447,11551,0.32967,-21.84146,0.92499,0.81818,-27.38276,0.93455,0.95578,-17.34111,0.9321,0.7299
+A,baseline: P0 + LGBM default,V2 train and calibrate on labels known at deployment,8338,0.52447,1107,0.32249,-21.84146,0.88909,0.79358,-27.38276,0.89455,0.94558,-17.34111,0.90914,0.70096
+A,selected: P4 everything + LGBM regularised,V0 all labels (as in the main design),17362,0.39448,11551,0.32967,-13.09021,0.95731,0.76043,-13.75538,0.976,0.89116,-11.41062,0.94382,0.63666
+A,selected: P4 everything + LGBM regularised,"V1 train on labels known at deployment, calibrate on all",8338,0.52447,11551,0.32967,-21.59852,0.9391,0.83529,-26.28954,0.93891,0.96599,-17.6693,0.94822,0.77492
+A,selected: P4 everything + LGBM regularised,V2 train and calibrate on labels known at deployment,8338,0.52447,1107,0.32249,-21.59852,0.90856,0.81497,-26.28954,0.89309,0.93878,-17.6693,0.92623,0.73955

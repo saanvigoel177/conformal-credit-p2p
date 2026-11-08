@@ -1,0 +1,55 @@
+{
+  "created": "2026-10-03T14:36:17",
+  "raw_file": "accepted_2007_to_2018Q4.csv",
+  "raw_bytes": 1675133810,
+  "raw_sha256": "3eae03c28fd9d2e8a076ebeb73507e8d4d0f44d90500decdb0936e0933d1f36a",
+  "raw_rows_read": 2260701,
+  "source": "Kaggle 'All Lending Club loan data' (Nathan George), accepted_2007_to_2018Q4, CC0",
+  "filters": "loan_status in {Fully Paid, Charged Off, Default}; 36-month issued <= 2015-12; 60-month issued <= 2013-12 (so every loan had its full term to resolve before the 2018-Q4 extract); core columns complete",
+  "extra_columns": [
+    "id",
+    "grade",
+    "sub_grade",
+    "installment",
+    "funded_amnt",
+    "open_acc",
+    "pub_rec",
+    "total_acc",
+    "inq_last_6mths",
+    "mths_since_last_delinq",
+    "mort_acc",
+    "pub_rec_bankruptcies",
+    "revol_bal",
+    "addr_state",
+    "application_type",
+    "initial_list_status",
+    "zip_code",
+    "credit_hist_yrs"
+  ],
+  "outputs": [
+    {
+      "file": "lending_club_36m_wide.csv",
+      "term": 36,
+      "max_issue": "2015-12",
+      "rows": 582113,
+      "default_rate": 0.13484151702504496,
+      "years": [
+        2007,
+        2015
+      ],
+      "sha256": "444bc69f7aea6a9da7eda16ac3f9749a335e2fbee6ddc4fb606dd349e5bb800d"
+    },
+    {
+      "file": "lending_club_60m_wide.csv",
+      "term": 60,
+      "max_issue": "2013-12",
+      "rows": 53506,
+      "default_rate": 0.25028968713789107,
+      "years": [
+        2010,
+        2013
+      ],
+      "sha256": "1f5e37d3c59882da12f0b767bee936ecb3b3fa3ebd260e1457732eb70f6862cd"
+    }
+  ]
+}

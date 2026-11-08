@@ -1,0 +1,54 @@
+AUDIT SUMMARY (2026-11-08 08:25), failed sections: none
+
+## Audit items
+part                                                      item                     value                                                                               note
+A-LC                loans (36-month, resolved, issued <= 2015)                    582113                                                                manuscript: 582,113
+A-LC                                              default rate                  0.134842                                                                 manuscript: 13.48%
+A-LC                                        duplicate loan ids                         0                                                                                   
+A-LC                          rows with a missing core feature                         0                                                                                   
+A-LC                             fully duplicated feature rows                         0                            identical loans in the same month: expected to be small
+A-LC                                               issue years                 2007-2015                                                                                   
+A-LC                          train / calibration / test loans 28,243 / 41,703 / 512,167                                              manuscript: 28,243 / 41,703 / 512,167
+A-LC                        matches extraction manifest (rows)                      True                                                                                   
+A-LC                                          payments matched                       1.0                                                                                   
+A-LC                share of repaid loans with negative profit                       0.0                                                                    should be small
+A-LC             share of defaulted loans with positive profit                  0.120062                                     recoveries exceeding principal: should be rare
+A-LC                        return on funded, repaid / default           +0.152 / -0.364                                                        manuscript: +0.152 / -0.364
+A-PR                                                  raw rows                    113937                                                                   expected 113,937
+A-PR                               duplicate ListingKey in raw                       871                                                                                   
+A-PR     analysis loans (36-month, resolved, 2006 to Mar-2011)                     37934                                                                 manuscript: 37,934
+A-PR                                              default rate                  0.321532                                                                  manuscript: 32.2%
+A-PR                  loans with ClosedDate before origination                         0                 handled: label time is set to at least the month after origination
+A-PR                         resolved loans without ClosedDate                         0                                                                                   
+A-PR                     duplicate loan keys in analysis frame                         0                                                                                   
+A-PR                         repaid loans with negative profit                  0.000544                                                                                   
+A-PR                      defaulted loans with positive profit                  0.151759                                                                                   
+A-PR                        return on funded, repaid / default           +0.200 / -0.474                                                        manuscript: +0.200 / -0.474
+  A3                       features flagged (|AUC-0.5| > 0.30)                         0 int_rate / lender grade are the strongest by design: they are known at origination
+   B manuscript numbers recomputed independently: PASS / total                   12 / 12                                                                                   
+
+## Manuscript number checks
+                                                 item  manuscript  recomputed  abs_diff result
+                   LC static coverage 2013 (baseline)      0.9178      0.9178    0.0000   PASS
+                   LC static coverage 2014 (baseline)      0.9025      0.9025    0.0000   PASS
+                   LC static coverage 2015 (baseline)      0.8900      0.8900    0.0000   PASS
+   LC static coverage of defaulters 2015 (alpha 0.10)      0.2360      0.2360    0.0000   PASS
+          LC actual - predicted default 2015 (points)      2.6500      2.6480    0.0020   PASS
+          LC actual - predicted default 2013 (points)     -1.6000     -1.6082    0.0082   PASS
+     Prosper static coverage 2010 (design B baseline)      0.9140      0.9137    0.0003   PASS
+     Prosper static coverage 2011 (design B baseline)      0.9260      0.9258    0.0002   PASS
+Prosper class-conditional coverage of defaulters 2010      0.9040      0.9037    0.0003   PASS
+Prosper class-conditional coverage of defaulters 2011      0.9760      0.9762    0.0002   PASS
+                          Prosper actual default 2010      0.1670      0.1670    0.0000   PASS
+                  Prosper mean predicted default 2010      0.2750      0.2751    0.0001   PASS
+
+## Coverage intervals
+                                         check    portfolio period  estimate     lo     hi                           extra
+coverage interval (calibration + month blocks) Lending Club   2013    0.9178 0.9148 0.9212 share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks) Lending Club   2014    0.9025 0.8988 0.9069 share of draws below 0.90: 0.09
+coverage interval (calibration + month blocks) Lending Club   2015    0.8900 0.8864 0.8936 share of draws below 0.90: 1.00
+coverage interval (calibration + month blocks)    Prosper B   2010    0.9137 0.8941 0.9251 share of draws below 0.90: 0.12
+coverage interval (calibration + month blocks)    Prosper B 2011Q1    0.9258 0.8989 0.9519 share of draws below 0.90: 0.03
+coverage interval (calibration + month blocks)    Prosper A   2009    0.9472 0.9393 0.9545 share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks)    Prosper A   2010    0.9553 0.9452 0.9660 share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks)    Prosper A 2011Q1    0.9775 0.9703 0.9853 share of draws below 0.90: 0.00

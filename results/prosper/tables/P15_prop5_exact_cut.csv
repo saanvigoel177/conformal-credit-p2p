@@ -1,0 +1,9 @@
+design,pipeline,sets,approved_share,identical_sets,gain_conformal,gain_ranking_same_share,diff_dollars,max_p_approved,min_p_not_approved,ties_at_cut
+B,baseline: P0 + LGBM default,static,0.65988,True,-242.60424,-242.60424,0.0,0.38198,0.38217,1
+B,baseline: P0 + LGBM default,class-conditional,0.22885,True,-525.07313,-525.07313,0.0,0.13027,0.13067,1
+B,selected: P3 applicant-only rich + LGBM regularised,static,0.75638,True,-167.88279,-167.88279,0.0,0.26154,0.26169,1
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,0.20878,True,-521.12896,-521.12896,0.0,0.11132,0.11138,1
+A,baseline: P0 + LGBM default,static,0.4617,True,-384.99993,-384.99993,0.0,0.28638,0.28661,1
+A,baseline: P0 + LGBM default,class-conditional,0.31327,True,-474.63324,-474.63324,0.0,0.16708,0.16721,1
+A,selected: P4 everything + LGBM regularised,static,0.47545,True,-363.40467,-363.40467,0.0,0.30351,0.30363,1
+A,selected: P4 everything + LGBM regularised,class-conditional,0.31804,True,-460.53758,-460.53758,0.0,0.18253,0.18275,1

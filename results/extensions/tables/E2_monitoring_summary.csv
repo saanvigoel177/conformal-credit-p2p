@@ -1,0 +1,4 @@
+portfolio,design,months,corr_gap_vs_coverage_dev,slope_pts_per_pt,slope_ci_lo,slope_ci_hi,alarm_months,coverage_off_months,alarm_and_off,alarm_not_off,off_not_alarm,first_alarm_month_index,first_off_month_index
+Lending Club,-,36,-0.98135,-0.65188,-0.68959,-0.61196,11,18,7,4,11,8,1
+Prosper,A,22,-0.88852,-0.7105,-0.90842,-0.30847,20,19,19,1,0,1,2
+Prosper,B,15,-0.53775,-0.20387,-0.40833,-0.06523,13,10,10,3,0,1,1

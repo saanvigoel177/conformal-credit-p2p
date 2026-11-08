@@ -1,0 +1,13 @@
+Calibration,Year,Coverage,CovDefault,SetSize
+Raw LightGBM,2013,0.9213,0.354,1.2116
+Raw LightGBM,2014,0.9094,0.3017,1.1835
+Raw LightGBM,2015,0.8927,0.2589,1.152
+Raw LightGBM,All,0.9078,0.3022,1.1824
+Platt-scaled,2013,0.9213,0.354,1.2116
+Platt-scaled,2014,0.9094,0.3017,1.1835
+Platt-scaled,2015,0.8927,0.2589,1.152
+Platt-scaled,All,0.9078,0.3022,1.1824
+Isotonic,2013,0.9222,0.3617,1.2193
+Isotonic,2014,0.9107,0.3123,1.1902
+Isotonic,2015,0.8941,0.2681,1.1574
+Isotonic,All,0.909,0.3113,1.189

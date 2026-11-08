@@ -1,0 +1,37 @@
+portfolio,design,gap_version,threshold_pts,windows,coverage_off_windows,alarms,precision,recall
+Lending Club,-,"eventual gap (all labels, hindsight)",0.5,34,18,29,0.62069,1.0
+Lending Club,-,"eventual gap (all labels, hindsight)",1.0,34,18,26,0.69231,1.0
+Lending Club,-,"eventual gap (all labels, hindsight)",1.5,34,18,18,0.77778,0.77778
+Lending Club,-,"eventual gap (all labels, hindsight)",2.0,34,18,11,0.63636,0.38889
+Lending Club,-,"eventual gap (all labels, hindsight)",3.0,34,18,1,1.0,0.05556
+Lending Club,-,"eventual gap (all labels, hindsight)",4.0,34,18,0,0.0,0.0
+Prosper,B,"eventual gap (all labels, hindsight)",0.5,13,10,13,0.76923,1.0
+Prosper,B,"eventual gap (all labels, hindsight)",1.0,13,10,13,0.76923,1.0
+Prosper,B,"eventual gap (all labels, hindsight)",1.5,13,10,13,0.76923,1.0
+Prosper,B,"eventual gap (all labels, hindsight)",2.0,13,10,13,0.76923,1.0
+Prosper,B,"eventual gap (all labels, hindsight)",3.0,13,10,13,0.76923,1.0
+Prosper,B,"eventual gap (all labels, hindsight)",4.0,13,10,13,0.76923,1.0
+Prosper,B,real-time gap (labels known at the time),0.5,12,9,12,0.75,1.0
+Prosper,B,real-time gap (labels known at the time),1.0,12,9,12,0.75,1.0
+Prosper,B,real-time gap (labels known at the time),1.5,12,9,12,0.75,1.0
+Prosper,B,real-time gap (labels known at the time),2.0,12,9,12,0.75,1.0
+Prosper,B,real-time gap (labels known at the time),3.0,12,9,12,0.75,1.0
+Prosper,B,real-time gap (labels known at the time),4.0,12,9,12,0.75,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",0.5,20,19,20,0.95,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",1.0,20,19,20,0.95,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",1.5,20,19,20,0.95,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",2.0,20,19,20,0.95,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",3.0,20,19,20,0.95,1.0
+Prosper,A,"eventual gap (all labels, hindsight)",4.0,20,19,20,0.95,1.0
+Prosper,A,real-time gap (labels known at the time),0.5,17,16,17,0.94118,1.0
+Prosper,A,real-time gap (labels known at the time),1.0,17,16,17,0.94118,1.0
+Prosper,A,real-time gap (labels known at the time),1.5,17,16,17,0.94118,1.0
+Prosper,A,real-time gap (labels known at the time),2.0,17,16,17,0.94118,1.0
+Prosper,A,real-time gap (labels known at the time),3.0,17,16,16,0.9375,0.9375
+Prosper,A,real-time gap (labels known at the time),4.0,17,16,16,0.9375,0.9375
+Lending Club,-,real-time gap (labels known at the time),0.5,34,18,32,0.5,0.88889
+Lending Club,-,real-time gap (labels known at the time),1.0,34,18,32,0.5,0.88889
+Lending Club,-,real-time gap (labels known at the time),1.5,34,18,30,0.46667,0.77778
+Lending Club,-,real-time gap (labels known at the time),2.0,34,18,29,0.44828,0.72222
+Lending Club,-,real-time gap (labels known at the time),3.0,34,18,25,0.36,0.5
+Lending Club,-,real-time gap (labels known at the time),4.0,34,18,20,0.3,0.33333

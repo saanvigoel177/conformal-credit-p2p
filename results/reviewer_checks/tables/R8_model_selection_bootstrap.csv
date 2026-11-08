@@ -1,0 +1,4 @@
+portfolio,design,validation_year,chosen_by_validation,prespecified_selected,n_val,logloss_selected,logloss_baseline,diff_sel_minus_base,diff_ci,share_of_resamples_selected_is_best,median_rank_of_selected,share_diff_below_zero
+Lending Club,val 2011,2011,F3 | LGBM regularised,F3 | LGBM regularised,13541,0.31229,0.31808,-0.0058,"[-0.0080, -0.0037]",0.9595,1.0,1.0
+Prosper,design B,2008,P3 applicant-only rich | LGBM regularised,P3 applicant-only rich | LGBM regularised,11551,0.57041,0.58143,-0.01102,"[-0.0158, -0.0076]",0.943,1.0,1.0
+Prosper,design A,2007,P4 everything | LGBM regularised,P4 everything | LGBM regularised,11460,0.56148,0.57989,-0.01841,"[-0.0248, -0.0121]",0.9805,1.0,1.0

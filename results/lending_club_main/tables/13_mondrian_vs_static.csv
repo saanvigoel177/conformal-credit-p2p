@@ -1,0 +1,9 @@
+Method,Year,Cov,Cov_nonDefault,Cov_Default,SetSize,Empty
+Static (marginal),2013,0.921,1.0,0.3513,1.21,0.0
+Static (marginal),2014,0.9092,1.0,0.3002,1.1824,0.0
+Static (marginal),2015,0.8924,1.0,0.2563,1.1507,0.0
+Static (marginal),All,0.9075,1.0,0.2999,1.181,0.0
+Mondrian,2013,0.8712,0.8643,0.9207,1.6515,0.0
+Mondrian,2014,0.8838,0.8827,0.8914,1.6282,0.0
+Mondrian,2015,0.9003,0.9072,0.8591,1.5969,0.0
+Mondrian,All,0.8851,0.8846,0.8886,1.6255,0.0

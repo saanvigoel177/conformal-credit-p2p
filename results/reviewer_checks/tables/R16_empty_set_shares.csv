@@ -1,0 +1,10 @@
+portfolio,design,method,period,empty,only_0,only_1,both
+Lending Club,-,static,2013-15,0.0,0.84579,0.0,0.15421
+Lending Club,-,class-conditional,2013-15,0.0,0.27749,0.11487,0.60763
+Lending Club,-,bin-conditional,2013-15,0.01045,0.77441,0.0,0.21514
+Prosper,B,static,test,0.0,0.65988,0.0066,0.33352
+Prosper,B,class-conditional,test,0.0,0.22885,0.16461,0.60654
+Prosper,B,bin-conditional,test,0.00846,0.57958,0.01334,0.39862
+Prosper,A,static,test,0.0,0.4617,0.00477,0.53353
+Prosper,A,class-conditional,test,0.0,0.31327,0.08125,0.60548
+Prosper,A,bin-conditional,test,0.0,0.45538,0.01363,0.53098

@@ -1,0 +1,7 @@
+year,resampling,gap_lo_pp,gap_hi_pp,width_pp,share_draws_ge_0p90
+2013,row bootstrap (iid),1.6267,2.53,0.9033,1.0
+2013,month-block bootstrap,1.5466,2.6533,1.1068,1.0
+2014,row bootstrap (iid),0.4799,1.4035,0.9236,1.0
+2014,month-block bootstrap,0.48,1.4267,0.9467,1.0
+2015,row bootstrap (iid),-1.2568,-0.2667,0.9901,0.0005
+2015,month-block bootstrap,-1.3467,-0.1533,1.1934,0.006

@@ -1,0 +1,5 @@
+pipeline,sets,approved_share,identical_sets,gain_conformal,gain_ranking_same_share,diff_dollars,max_p_approved,min_p_not_approved,ties_at_cut
+paper: F0 + LGBM default,static,0.84579,True,-119.46193,-119.46193,0.0,0.19398,0.19398,5
+paper: F0 + LGBM default,class-conditional,0.27749,True,-705.60346,-705.60346,0.0,0.07243,0.07244,4
+selected: F3 + LGBM regularised,static,0.8346,True,-124.17628,-124.17628,0.0,0.17652,0.17652,3
+selected: F3 + LGBM regularised,class-conditional,0.21865,True,-798.5342,-798.5342,0.0,0.07421,0.07421,2

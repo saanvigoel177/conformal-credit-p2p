@@ -1,0 +1,13 @@
+monitor,delay_months,first_alarm,months_after_deployment,null_false_alarm_rate
+PSI > 0.10,-,none,,0.0
+PSI > 0.25,-,none,,0.0
+KS p < 1e-3,-,2013-03,3.0,0.04
+Coverage test,0,none,,0.0
+Coverage test,6,none,,0.0
+Coverage test,12,none,,0.0
+Calibration-in-the-large test,0,2013-04,4.0,0.0
+Calibration-in-the-large test,6,2013-10,10.0,0.0
+Calibration-in-the-large test,12,2014-04,16.0,0.0
+Conformal martingale >= 100,0,none,,0.0
+Conformal martingale >= 100,6,none,,0.0
+Conformal martingale >= 100,12,none,,0.0

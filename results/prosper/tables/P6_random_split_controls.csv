@@ -1,0 +1,8 @@
+design,control,mean_cov,sd,repeats
+B,within calibration year 2009,0.90055,0.01354,50
+B,within test period 2010,0.90024,0.00847,50
+B,within test period 2011Q1,0.90267,0.01771,50
+A,within calibration year 2008,0.8985,0.00566,50
+A,within test period 2009,0.90119,0.01256,50
+A,within test period 2010,0.90016,0.00794,50
+A,within test period 2011Q1,0.89858,0.01488,50

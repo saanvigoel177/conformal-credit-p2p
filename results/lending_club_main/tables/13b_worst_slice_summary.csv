@@ -1,0 +1,22 @@
+method,family,worst_level,worst_cov,worst_gap_pp,best_cov,n_slices
+Static (marginal),FICO tercile,FICO:low,0.8939,-0.6088,0.934,3
+Static (marginal),home_ownership,RENT,0.8932,-0.6768,0.9198,3
+Static (marginal),int_rate tercile,rate:mid,0.8874,-1.2574,0.9357,3
+Static (marginal),loan-size tercile,amount:mid,0.9031,0.3058,0.9154,3
+Static (marginal),purpose,credit_card,0.8994,-0.0559,0.9696,12
+Static (marginal),risk decile (p_hat),D07,0.8194,-8.0556,1.0,10
+Static (marginal),verification,Source Verified,0.8957,-0.4293,0.9166,3
+Mondrian (class),FICO tercile,FICO:low,0.8349,-6.5098,0.9343,3
+Mondrian (class),home_ownership,OWN,0.8554,-4.4617,0.9022,3
+Mondrian (class),int_rate tercile,rate:high,0.7344,-16.5583,0.966,3
+Mondrian (class),loan-size tercile,amount:low,0.8348,-6.516,0.9237,3
+Mondrian (class),purpose,small_business,0.479,-42.1028,0.9651,12
+Mondrian (class),risk decile (p_hat),D09,0.2338,-66.6222,1.0,10
+Mondrian (class),verification,Verified,0.8512,-4.8835,0.9011,3
+Bin-Mondrian (5 p_hat bins),FICO tercile,FICO:low,0.8985,-0.1508,0.928,3
+Bin-Mondrian (5 p_hat bins),home_ownership,RENT,0.8979,-0.2132,0.9166,3
+Bin-Mondrian (5 p_hat bins),int_rate tercile,rate:mid,0.8964,-0.3632,0.923,3
+Bin-Mondrian (5 p_hat bins),loan-size tercile,amount:high,0.9016,0.1585,0.9186,3
+Bin-Mondrian (5 p_hat bins),purpose,credit_card,0.8986,-0.1351,0.9657,12
+Bin-Mondrian (5 p_hat bins),risk decile (p_hat),D02,0.843,-5.7,1.0,10
+Bin-Mondrian (5 p_hat bins),verification,Source Verified,0.8959,-0.4062,0.9172,3

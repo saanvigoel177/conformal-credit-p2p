@@ -1,0 +1,7 @@
+design,features,spearman_all,spearman_repaid_only,spearman_defaulted_only,AUC_profit_positive,AUC_repaid_vs_default,share_profit_positive_among_defaults,mean_pred_return_repaid,mean_pred_return_default
+B,P0 with lender rate,0.09932,0.06223,0.08531,0.57135,0.5542,0.21074,0.05255,0.04085
+B,P3 applicant-only rich,0.05826,-0.03931,0.09634,0.61659,0.60091,0.21074,0.05243,0.03514
+A,P0 with lender rate,-0.19364,-0.43321,0.05376,0.65628,0.66341,0.21688,0.01614,-0.02759
+A,P3 applicant-only rich,0.01991,-0.10736,0.10858,0.63532,0.62437,0.21688,0.05729,0.03654
+Lending Club 2013-15,F0,0.2194,0.34244,0.0079,0.44154,0.43744,0.11944,0.09869,0.10339
+Lending Club 2013-15,F3,0.02674,0.00732,0.04372,0.53168,0.5302,0.11944,0.1072,0.103

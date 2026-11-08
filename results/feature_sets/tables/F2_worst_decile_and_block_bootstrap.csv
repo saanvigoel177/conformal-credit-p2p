@@ -1,0 +1,6 @@
+feature_set,static_worst_decile_cov,static_worst_decile,mond_worst_decile_cov,mond_worst_decile,gap2015_pp,gap2015_blk_lo,gap2015_blk_hi
+F0 baseline (with int_rate),0.8194,7,0.2338,9,-0.7633,-1.1867,-0.3599
+F1 no lender score,0.8277,7,0.209,9,-0.2667,-0.6834,0.1067
+F2 + grade/sub_grade,0.817,7,0.2337,9,-0.6733,-1.1701,-0.2499
+"F3 applicant-only, rich",0.8319,7,0.2163,9,-0.1,-0.5067,0.27
+F4 everything,0.8219,7,0.2391,9,-0.46,-0.8767,-0.0699

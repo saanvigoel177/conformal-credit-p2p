@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\caption{Adaptive and recalibrating methods under label delay (months); frozen base model, $\alpha=0.10$.}
+\label{tab:t2_adaptive_methods}
+\begin{tabular}{lllllll}
+\toprule
+method & delay & cov\_2013 & cov\_2014 & cov\_2015 & size\_all & share\_within\_3pp \\n\midrule
+Static (2012 threshold) & - & 0.921 & 0.909 & 0.892 & 1.181 & 0.796 \\
+Oracle per-year threshold (hindsight) & - & 0.900 & 0.900 & 0.900 & 1.140 & 0.899 \\
+Rolling recalibration, W=6 mo & 0 & 0.907 & 0.895 & 0.895 & 1.134 & 0.865 \\
+Rolling recalibration, W=12 mo & 0 & 0.912 & 0.893 & 0.891 & 1.134 & 0.828 \\
+ACI, gamma=0.005 & 0 & 0.900 & 0.900 & 0.900 & 1.145 & 0.977 \\
+ACI, gamma=0.015 & 0 & 0.900 & 0.900 & 0.900 & 1.157 & 1.000 \\
+Quantile tracker, eta=0.005 & 0 & 0.901 & 0.900 & 0.900 & 1.142 & 0.951 \\
+Quantile tracker, eta=0.02 & 0 & 0.900 & 0.900 & 0.900 & 1.145 & 0.986 \\
+Rolling recalibration, W=6 mo & 6 & 0.918 & 0.890 & 0.885 & 1.135 & 0.774 \\
+Rolling recalibration, W=12 mo & 6 & 0.921 & 0.893 & 0.881 & 1.139 & 0.744 \\
+ACI, gamma=4e-05 & 6 & 0.918 & 0.892 & 0.883 & 1.134 & 0.765 \\
+ACI, gamma=0.0001 & 6 & 0.913 & 0.880 & 0.906 & 1.145 & 0.738 \\
+Quantile tracker, eta=4e-05 & 6 & 0.919 & 0.898 & 0.882 & 1.144 & 0.777 \\
+Quantile tracker, eta=0.0001 & 6 & 0.917 & 0.890 & 0.884 & 1.129 & 0.770 \\
+Rolling recalibration, W=6 mo & 12 & 0.924 & 0.896 & 0.876 & 1.143 & 0.676 \\
+Rolling recalibration, W=12 mo & 12 & 0.925 & 0.900 & 0.875 & 1.149 & 0.670 \\
+ACI, gamma=4e-05 & 12 & 0.921 & 0.898 & 0.866 & 1.125 & 0.640 \\
+ACI, gamma=0.0001 & 12 & 0.921 & 0.874 & 0.849 & 1.090 & 0.483 \\
+Quantile tracker, eta=4e-05 & 12 & 0.921 & 0.902 & 0.878 & 1.148 & 0.730 \\
+Quantile tracker, eta=0.0001 & 12 & 0.921 & 0.894 & 0.868 & 1.122 & 0.646 \\
+\bottomrule
+\end{tabular}
+\end{table}

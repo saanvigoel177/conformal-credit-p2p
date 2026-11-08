@@ -1,0 +1,4 @@
+delay,test_year,validation_year,gamma_selected,cov_selected,gamma_hindsight,cov_hindsight,cov_gamma_0p015,cov_static
+0,2014,2013,0.015,0.8999,0.015,0.8999,0.8999,0.9092
+0,2015,2014,0.015,0.9,0.015,0.9,0.9,0.8924
+12,2015,2013,0.0,0.8918,0.0,0.8918,,0.8924

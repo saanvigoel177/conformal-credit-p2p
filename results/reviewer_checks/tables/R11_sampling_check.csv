@@ -1,0 +1,49 @@
+sample,method,pooled,cov_2015
+all loans,static,0.89889,0.88995
+all loans,"ACI gamma 0.015, immediate",0.89998,0.89996
+all loans,"ACI batch gain 0.1, delay 6",0.89547,0.88843
+all loans,"ACI batch gain 0.25, delay 6",0.90053,0.90469
+all loans,"rolling recalibration, delay 6",0.89448,0.89175
+all loans,"ACI batch gain 0.1, delay 12",0.89209,0.87939
+all loans,"ACI batch gain 0.25, delay 12",0.88321,0.86709
+all loans,"rolling recalibration, delay 12",0.89238,0.88636
+"2,500/month sample, seed 0",static,0.90431,0.8889
+"2,500/month sample, seed 0","ACI gamma 0.015, immediate",0.89997,0.89987
+"2,500/month sample, seed 0","ACI batch gain 0.1, delay 6",0.89628,0.88283
+"2,500/month sample, seed 0","ACI batch gain 0.25, delay 6",0.89983,0.90947
+"2,500/month sample, seed 0","rolling recalibration, delay 6",0.89763,0.88977
+"2,500/month sample, seed 0","ACI batch gain 0.1, delay 12",0.89299,0.86543
+"2,500/month sample, seed 0","ACI batch gain 0.25, delay 12",0.88066,0.8522
+"2,500/month sample, seed 0","rolling recalibration, delay 12",0.89681,0.88273
+"2,500/month sample, seed 1",static,0.90874,0.89653
+"2,500/month sample, seed 1","ACI gamma 0.015, immediate",0.89997,0.89983
+"2,500/month sample, seed 1","ACI batch gain 0.1, delay 6",0.89906,0.88717
+"2,500/month sample, seed 1","ACI batch gain 0.25, delay 6",0.90063,0.9082
+"2,500/month sample, seed 1","rolling recalibration, delay 6",0.89927,0.891
+"2,500/month sample, seed 1","ACI batch gain 0.1, delay 12",0.89614,0.86927
+"2,500/month sample, seed 1","ACI batch gain 0.25, delay 12",0.88213,0.8504
+"2,500/month sample, seed 1","rolling recalibration, delay 12",0.89969,0.88643
+"2,500/month sample, seed 2",static,0.90539,0.8908
+"2,500/month sample, seed 2","ACI gamma 0.015, immediate",0.89998,0.89997
+"2,500/month sample, seed 2","ACI batch gain 0.1, delay 6",0.89748,0.8847
+"2,500/month sample, seed 2","ACI batch gain 0.25, delay 6",0.89907,0.90227
+"2,500/month sample, seed 2","rolling recalibration, delay 6",0.89808,0.8887
+"2,500/month sample, seed 2","ACI batch gain 0.1, delay 12",0.8946,0.8702
+"2,500/month sample, seed 2","ACI batch gain 0.25, delay 12",0.88298,0.85827
+"2,500/month sample, seed 2","rolling recalibration, delay 12",0.89777,0.88547
+"2,500/month sample, seed 3",static,0.90549,0.89253
+"2,500/month sample, seed 3","ACI gamma 0.015, immediate",0.89994,0.8999
+"2,500/month sample, seed 3","ACI batch gain 0.1, delay 6",0.8978,0.88673
+"2,500/month sample, seed 3","ACI batch gain 0.25, delay 6",0.89968,0.90463
+"2,500/month sample, seed 3","rolling recalibration, delay 6",0.89868,0.89137
+"2,500/month sample, seed 3","ACI batch gain 0.1, delay 12",0.895,0.8721
+"2,500/month sample, seed 3","ACI batch gain 0.25, delay 12",0.88418,0.86303
+"2,500/month sample, seed 3","rolling recalibration, delay 12",0.89837,0.88787
+"2,500/month sample, seed 4",static,0.90771,0.89457
+"2,500/month sample, seed 4","ACI gamma 0.015, immediate",0.89996,0.89987
+"2,500/month sample, seed 4","ACI batch gain 0.1, delay 6",0.89824,0.8871
+"2,500/month sample, seed 4","ACI batch gain 0.25, delay 6",0.90149,0.916
+"2,500/month sample, seed 4","rolling recalibration, delay 6",0.89909,0.8921
+"2,500/month sample, seed 4","ACI batch gain 0.1, delay 12",0.89484,0.86803
+"2,500/month sample, seed 4","ACI batch gain 0.25, delay 12",0.88141,0.8541
+"2,500/month sample, seed 4","rolling recalibration, delay 12",0.89892,0.88803

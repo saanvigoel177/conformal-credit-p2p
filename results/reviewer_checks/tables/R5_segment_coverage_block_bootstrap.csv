@@ -1,0 +1,99 @@
+portfolio,design,segment,value,N,cov,ci_lo,ci_hi,p_boot,p_bh,sig_ci,sig_bh
+Lending Club,-,ALL,all,512167,0.89889,0.89488,0.90388,0.696,,False,False
+Lending Club,-,grade,A,116570,0.94897,0.94729,0.9508,0.001,0.0015,True,True
+Lending Club,-,grade,B,174910,0.89767,0.89403,0.9016,0.262,0.29475,False,False
+Lending Club,-,grade,C,136446,0.85849,0.85179,0.86684,0.001,0.0015,True,True
+Lending Club,-,grade,D,62347,0.88408,0.87494,0.89512,0.001,0.0015,True,True
+Lending Club,-,grade,E,17971,0.9285,0.91785,0.93993,0.001,0.0015,True,True
+Lending Club,-,grade,F,3529,0.96996,0.96379,0.97496,0.001,0.0015,True,True
+Lending Club,-,grade,G,394,0.96193,0.94531,0.97965,0.001,0.0015,True,True
+Lending Club,-,purpose,car,4887,0.92061,0.91345,0.9304,0.001,0.0015,True,True
+Lending Club,-,purpose,credit_card,128056,0.89337,0.89056,0.89609,0.001,0.0015,True,True
+Lending Club,-,purpose,debt_consolidation,295192,0.89449,0.88976,0.90035,0.062,0.07971,False,False
+Lending Club,-,purpose,home_improvement,28765,0.9159,0.91017,0.92215,0.001,0.0015,True,True
+Lending Club,-,purpose,major_purchase,9425,0.90048,0.89371,0.90763,0.8,0.82286,False,False
+Lending Club,-,purpose,other,40931,0.92661,0.91971,0.93533,0.001,0.0015,True,True
+Lending Club,-,purpose,small_business,4911,0.95194,0.9448,0.95983,0.001,0.0015,True,True
+Lending Club,-,home ownership,MORTGAGE,241434,0.91401,0.91093,0.91779,0.001,0.0015,True,True
+Lending Club,-,home ownership,OWN,50316,0.89977,0.89419,0.906,0.972,0.972,False,False
+Lending Club,-,home ownership,RENT,220415,0.88212,0.87698,0.88804,0.001,0.0015,True,True
+Lending Club,-,verification,Not Verified,178779,0.91088,0.90814,0.91425,0.001,0.0015,True,True
+Lending Club,-,verification,Source Verified,193646,0.88894,0.88485,0.89364,0.001,0.0015,True,True
+Lending Club,-,verification,Verified,139742,0.89732,0.89025,0.90528,0.52,0.56727,False,False
+Lending Club,-,income quartile,income Q1,137335,0.90051,0.89593,0.90598,0.798,0.82286,False,False
+Lending Club,-,income quartile,income Q2,116416,0.88903,0.8844,0.89453,0.001,0.0015,True,True
+Lending Club,-,income quartile,income Q3,136380,0.89635,0.89111,0.90235,0.23,0.2671,False,False
+Lending Club,-,income quartile,income Q4,122036,0.9093,0.90527,0.91392,0.001,0.0015,True,True
+Lending Club,-,FICO band,"[0, 680)",188052,0.88018,0.87376,0.8879,0.001,0.0015,True,True
+Lending Club,-,FICO band,"[680, 700)",141434,0.88824,0.88418,0.89304,0.001,0.0015,True,True
+Lending Club,-,FICO band,"[700, 720)",91472,0.91081,0.90791,0.91406,0.001,0.0015,True,True
+Lending Club,-,FICO band,"[720, 740)",45841,0.93076,0.92772,0.93386,0.001,0.0015,True,True
+Lending Club,-,FICO band,"[740, 900)",45368,0.95336,0.95123,0.95574,0.001,0.0015,True,True
+Lending Club,-,loan amount tercile,amount Q1,173065,0.90585,0.90079,0.91178,0.018,0.02492,True,True
+Lending Club,-,loan amount tercile,amount Q2,187815,0.89526,0.89151,0.89973,0.034,0.04533,True,True
+Lending Club,-,loan amount tercile,amount Q3,151287,0.89542,0.89132,0.90045,0.07,0.0869,False,False
+Lending Club,-,DTI quartile,dti Q1,122384,0.91307,0.90977,0.91737,0.001,0.0015,True,True
+Lending Club,-,DTI quartile,dti Q2,126744,0.90359,0.89971,0.90822,0.078,0.0936,False,False
+Lending Club,-,DTI quartile,dti Q3,127589,0.88792,0.88355,0.89316,0.001,0.0015,True,True
+Lending Club,-,DTI quartile,dti Q4,135450,0.892,0.88694,0.89847,0.012,0.01728,True,True
+Prosper,B,ALL,all,6974,0.91612,0.89618,0.92998,0.144,,False,False
+Prosper,B,grade,A,1072,0.90858,0.89755,0.92451,0.156,0.348,False,False
+Prosper,B,grade,AA,717,0.96374,0.94628,0.98092,0.001,0.00725,True,True
+Prosper,B,grade,B,699,0.8927,0.87456,0.91267,0.458,0.60373,False,False
+Prosper,B,grade,C,721,0.88072,0.85391,0.91011,0.212,0.43914,False,False
+Prosper,B,grade,D,1836,0.91721,0.87734,0.9438,0.494,0.62287,False,False
+Prosper,B,grade,E,870,0.94023,0.90697,0.96096,0.018,0.07457,True,False
+Prosper,B,grade,HR,987,0.90578,0.86735,0.93437,0.828,0.85757,False,False
+Prosper,B,employment,Employed,2554,0.92052,0.89527,0.93985,0.114,0.2755,False,False
+Prosper,B,employment,Full-time,3658,0.91908,0.90099,0.93288,0.032,0.10311,True,False
+Prosper,B,employment,Retired,168,0.86905,0.80749,0.92773,0.332,0.56635,False,False
+Prosper,B,employment,Self-employed,317,0.88959,0.83599,0.93235,0.582,0.67512,False,False
+Prosper,B,homeowner,no,3405,0.90308,0.87918,0.92121,0.794,0.85281,False,False
+Prosper,B,homeowner,yes,3569,0.92855,0.90888,0.94449,0.004,0.0232,True,True
+Prosper,B,purpose,1,3301,0.92851,0.90236,0.94362,0.03,0.10311,True,False
+Prosper,B,purpose,2,661,0.91074,0.8763,0.93995,0.444,0.60373,False,False
+Prosper,B,purpose,3,687,0.9083,0.87888,0.93455,0.55,0.66458,False,False
+Prosper,B,purpose,7,1783,0.90802,0.88861,0.92731,0.374,0.57084,False,False
+Prosper,B,purpose,other,539,0.88312,0.85412,0.90891,0.23,0.44467,False,False
+Prosper,B,FICO band,"[0.0, 660.0)",1344,0.90179,0.86287,0.92744,0.96,0.96,False,False
+Prosper,B,FICO band,"[660.0, 700.0)",1693,0.91317,0.88896,0.93862,0.332,0.56635,False,False
+Prosper,B,FICO band,"[700.0, 740.0)",1635,0.91498,0.88763,0.93085,0.368,0.57084,False,False
+Prosper,B,FICO band,"[740.0, 900.0)",2302,0.92745,0.91785,0.93833,0.001,0.00725,True,True
+Prosper,B,income quartile,income Q1,1315,0.89278,0.86585,0.91207,0.434,0.60373,False,False
+Prosper,B,income quartile,income Q2,1538,0.91092,0.87994,0.93028,0.636,0.70938,False,False
+Prosper,B,income quartile,income Q3,1913,0.92002,0.89822,0.93943,0.09,0.23727,False,False
+Prosper,B,income quartile,income Q4,2208,0.93025,0.91408,0.94615,0.001,0.00725,True,True
+Prosper,B,loan amount tercile,amount Q1,2740,0.88394,0.86328,0.89898,0.038,0.1102,True,False
+Prosper,B,loan amount tercile,amount Q2,2257,0.93753,0.91024,0.95387,0.008,0.03867,True,True
+Prosper,B,loan amount tercile,amount Q3,1977,0.93627,0.91752,0.95184,0.001,0.00725,True,True
+Prosper,A,ALL,all,9021,0.95688,0.94903,0.96469,0.001,,True,False
+Prosper,A,grade,A,1532,0.91057,0.89993,0.92204,0.052,0.052,False,False
+Prosper,A,grade,AA,1015,0.95862,0.94285,0.97254,0.001,0.00111,True,True
+Prosper,A,grade,B,800,0.93625,0.91736,0.95313,0.001,0.00111,True,True
+Prosper,A,grade,C,1116,0.92563,0.90438,0.94508,0.024,0.02483,True,True
+Prosper,A,grade,D,2171,0.98572,0.97932,0.9909,0.001,0.00111,True,True
+Prosper,A,grade,E,1063,0.98777,0.98043,0.99365,0.001,0.00111,True,True
+Prosper,A,grade,HR,1194,0.97655,0.96733,0.98587,0.001,0.00111,True,True
+Prosper,A,employment,Employed,2554,0.97533,0.96847,0.98246,0.001,0.00111,True,True
+Prosper,A,employment,Full-time,5491,0.94992,0.94505,0.95666,0.001,0.00111,True,True
+Prosper,A,employment,Part-time,206,0.95631,0.92941,0.98,0.001,0.00111,True,True
+Prosper,A,employment,Retired,208,0.95673,0.93192,0.97808,0.001,0.00111,True,True
+Prosper,A,employment,Self-employed,405,0.94074,0.91232,0.96667,0.004,0.00429,True,True
+Prosper,A,homeowner,no,4324,0.9549,0.94786,0.96224,0.001,0.00111,True,True
+Prosper,A,homeowner,yes,4697,0.9587,0.94694,0.96864,0.001,0.00111,True,True
+Prosper,A,purpose,1,4237,0.95752,0.9479,0.96719,0.001,0.00111,True,True
+Prosper,A,purpose,2,853,0.94959,0.92896,0.96756,0.001,0.00111,True,True
+Prosper,A,purpose,3,902,0.95455,0.93614,0.97177,0.001,0.00111,True,True
+Prosper,A,purpose,7,2243,0.95943,0.94857,0.96955,0.001,0.00111,True,True
+Prosper,A,purpose,other,783,0.95658,0.9397,0.97402,0.001,0.00111,True,True
+Prosper,A,FICO band,"[0.0, 660.0)",1809,0.9707,0.96088,0.98122,0.001,0.00111,True,True
+Prosper,A,FICO band,"[660.0, 700.0)",2128,0.96523,0.95144,0.97698,0.001,0.00111,True,True
+Prosper,A,FICO band,"[700.0, 740.0)",2067,0.94727,0.93562,0.9585,0.001,0.00111,True,True
+Prosper,A,FICO band,"[740.0, 900.0)",3017,0.94929,0.93925,0.95866,0.001,0.00111,True,True
+Prosper,A,income quartile,income Q1,1692,0.94917,0.93682,0.96079,0.001,0.00111,True,True
+Prosper,A,income quartile,income Q2,2008,0.95169,0.94246,0.96395,0.001,0.00111,True,True
+Prosper,A,income quartile,income Q3,2511,0.96137,0.95118,0.97067,0.001,0.00111,True,True
+Prosper,A,income quartile,income Q4,2810,0.96121,0.94936,0.97076,0.001,0.00111,True,True
+Prosper,A,loan amount tercile,amount Q1,3846,0.94748,0.93681,0.95706,0.001,0.00111,True,True
+Prosper,A,loan amount tercile,amount Q2,2784,0.9648,0.95434,0.97623,0.001,0.00111,True,True
+Prosper,A,loan amount tercile,amount Q3,2391,0.96278,0.95353,0.97058,0.001,0.00111,True,True

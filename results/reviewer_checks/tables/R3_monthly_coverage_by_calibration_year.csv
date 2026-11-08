@@ -1,0 +1,475 @@
+portfolio,calib,month,cov_dev,age_months
+Lending Club,2010,201101,-0.27322,13
+Lending Club,2010,201102,1.94969,14
+Lending Club,2010,201103,0.38224,15
+Lending Club,2010,201104,-0.02203,16
+Lending Club,2010,201105,-1.70098,17
+Lending Club,2010,201106,-0.1569,18
+Lending Club,2010,201107,-0.74919,19
+Lending Club,2010,201108,-1.38535,20
+Lending Club,2010,201109,-0.58282,21
+Lending Club,2010,201110,-1.2101,22
+Lending Club,2010,201111,-0.08174,23
+Lending Club,2010,201112,-3.96364,24
+Lending Club,2010,201201,-4.35819,25
+Lending Club,2010,201202,-4.61233,26
+Lending Club,2010,201203,-2.66608,27
+Lending Club,2010,201204,-3.61702,28
+Lending Club,2010,201205,-4.84286,29
+Lending Club,2010,201206,-6.64388,30
+Lending Club,2010,201207,-6.2886,31
+Lending Club,2010,201208,-4.34599,32
+Lending Club,2010,201209,-4.18905,33
+Lending Club,2010,201210,-4.18769,34
+Lending Club,2010,201211,-4.4186,35
+Lending Club,2010,201212,-3.38976,36
+Lending Club,2010,201301,-4.09321,37
+Lending Club,2010,201302,-4.11032,38
+Lending Club,2010,201303,-3.24171,39
+Lending Club,2010,201304,-3.52056,40
+Lending Club,2010,201305,-3.99755,41
+Lending Club,2010,201306,-3.45879,42
+Lending Club,2010,201307,-3.9847,43
+Lending Club,2010,201308,-3.65369,44
+Lending Club,2010,201309,-3.24306,45
+Lending Club,2010,201310,-2.80111,46
+Lending Club,2010,201311,-2.76904,47
+Lending Club,2010,201312,-2.56071,48
+Lending Club,2010,201401,-3.55366,49
+Lending Club,2010,201402,-4.05697,50
+Lending Club,2010,201403,-4.05391,51
+Lending Club,2010,201404,-4.26042,52
+Lending Club,2010,201405,-4.37555,53
+Lending Club,2010,201406,-4.74388,54
+Lending Club,2010,201407,-4.48367,55
+Lending Club,2010,201408,-4.39394,56
+Lending Club,2010,201409,-4.93376,57
+Lending Club,2010,201410,-5.91165,58
+Lending Club,2010,201411,-5.10801,59
+Lending Club,2010,201412,-4.33463,60
+Lending Club,2010,201501,-5.58043,61
+Lending Club,2010,201502,-4.86796,62
+Lending Club,2010,201503,-6.18019,63
+Lending Club,2010,201504,-6.37419,64
+Lending Club,2010,201505,-6.0806,65
+Lending Club,2010,201506,-5.98594,66
+Lending Club,2010,201507,-5.29013,67
+Lending Club,2010,201508,-4.64407,68
+Lending Club,2010,201509,-5.75432,69
+Lending Club,2010,201510,-4.64261,70
+Lending Club,2010,201511,-5.36883,71
+Lending Club,2010,201512,-6.26028,72
+Lending Club,2011,201201,-2.9376,13
+Lending Club,2011,201202,-3.02187,14
+Lending Club,2011,201203,-1.42604,15
+Lending Club,2011,201204,-2.147,16
+Lending Club,2011,201205,-3.17683,17
+Lending Club,2011,201206,-4.62748,18
+Lending Club,2011,201207,-4.51216,19
+Lending Club,2011,201208,-2.9864,20
+Lending Club,2011,201209,-2.85626,21
+Lending Club,2011,201210,-2.43189,22
+Lending Club,2011,201211,-2.86148,23
+Lending Club,2011,201212,-1.02431,24
+Lending Club,2011,201301,-1.94086,25
+Lending Club,2011,201302,-2.06986,26
+Lending Club,2011,201303,-0.99434,27
+Lending Club,2011,201304,-1.45049,28
+Lending Club,2011,201305,-1.93948,29
+Lending Club,2011,201306,-1.69371,30
+Lending Club,2011,201307,-1.41848,31
+Lending Club,2011,201308,-0.7081,32
+Lending Club,2011,201309,-0.93642,33
+Lending Club,2011,201310,-0.70134,34
+Lending Club,2011,201311,-0.48161,35
+Lending Club,2011,201312,-0.34187,36
+Lending Club,2011,201401,-1.10286,37
+Lending Club,2011,201402,-1.37525,38
+Lending Club,2011,201403,-1.64283,39
+Lending Club,2011,201404,-1.85418,40
+Lending Club,2011,201405,-2.27122,41
+Lending Club,2011,201406,-2.77376,42
+Lending Club,2011,201407,-2.47629,43
+Lending Club,2011,201408,-1.77033,44
+Lending Club,2011,201409,-2.62961,45
+Lending Club,2011,201410,-3.44578,46
+Lending Club,2011,201411,-2.92847,47
+Lending Club,2011,201412,-2.59144,48
+Lending Club,2011,201501,-3.60805,49
+Lending Club,2011,201502,-2.86041,50
+Lending Club,2011,201503,-4.12686,51
+Lending Club,2011,201504,-4.30436,52
+Lending Club,2011,201505,-4.11991,53
+Lending Club,2011,201506,-4.39014,54
+Lending Club,2011,201507,-3.65005,55
+Lending Club,2011,201508,-2.99435,56
+Lending Club,2011,201509,-3.82499,57
+Lending Club,2011,201510,-3.08523,58
+Lending Club,2011,201511,-3.71392,59
+Lending Club,2011,201512,-4.47622,60
+Lending Club,2012,201301,1.3906,13
+Lending Club,2012,201302,1.12917,14
+Lending Club,2012,201303,2.28779,15
+Lending Club,2012,201304,1.76317,16
+Lending Club,2012,201305,1.44064,17
+Lending Club,2012,201306,1.99221,18
+Lending Club,2012,201307,1.54797,19
+Lending Club,2012,201308,2.27215,20
+Lending Club,2012,201309,1.6571,21
+Lending Club,2012,201310,2.09124,22
+Lending Club,2012,201311,1.49696,23
+Lending Club,2012,201312,2.00076,24
+Lending Club,2012,201401,1.19012,25
+Lending Club,2012,201402,0.90373,26
+Lending Club,2012,201403,0.67657,27
+Lending Club,2012,201404,0.65669,28
+Lending Club,2012,201405,0.31686,29
+Lending Club,2012,201406,-0.12554,30
+Lending Club,2012,201407,-0.13699,31
+Lending Club,2012,201408,0.98884,32
+Lending Club,2012,201409,0.19297,33
+Lending Club,2012,201410,-0.35341,34
+Lending Club,2012,201411,-0.27681,35
+Lending Club,2012,201412,0.05447,36
+Lending Club,2012,201501,-0.68334,37
+Lending Club,2012,201502,-0.27351,38
+Lending Club,2012,201503,-1.38489,39
+Lending Club,2012,201504,-1.39759,40
+Lending Club,2012,201505,-1.08751,41
+Lending Club,2012,201506,-1.22085,42
+Lending Club,2012,201507,-0.73319,43
+Lending Club,2012,201508,-0.29153,44
+Lending Club,2012,201509,-1.13648,45
+Lending Club,2012,201510,-0.72645,46
+Lending Club,2012,201511,-1.2337,47
+Lending Club,2012,201512,-1.79836,48
+Lending Club,2013,201401,-0.45303,13
+Lending Club,2013,201402,-0.65815,14
+Lending Club,2013,201403,-0.9736,15
+Lending Club,2013,201404,-0.79189,16
+Lending Club,2013,201405,-1.31178,17
+Lending Club,2013,201406,-1.83909,18
+Lending Club,2013,201407,-1.62803,19
+Lending Club,2013,201408,-1.17225,20
+Lending Club,2013,201409,-1.93836,21
+Lending Club,2013,201410,-2.19679,22
+Lending Club,2013,201411,-1.74492,23
+Lending Club,2013,201412,-1.57977,24
+Lending Club,2013,201501,-2.32623,25
+Lending Club,2013,201502,-1.64107,26
+Lending Club,2013,201503,-2.99596,27
+Lending Club,2013,201504,-3.17945,28
+Lending Club,2013,201505,-2.87535,29
+Lending Club,2013,201506,-3.00636,30
+Lending Club,2013,201507,-2.47016,31
+Lending Club,2013,201508,-1.97288,32
+Lending Club,2013,201509,-2.57492,33
+Lending Club,2013,201510,-2.11187,34
+Lending Club,2013,201511,-2.69617,35
+Lending Club,2013,201512,-3.35717,36
+Prosper,2007,200801,-3.90476,13
+Prosper,2007,200802,-5.39313,14
+Prosper,2007,200803,-4.62979,15
+Prosper,2007,200804,-6.4751,16
+Prosper,2007,200805,-7.03057,17
+Prosper,2007,200806,-6.29526,18
+Prosper,2007,200807,-3.03075,19
+Prosper,2007,200808,-3.66667,20
+Prosper,2007,200809,-1.58301,21
+Prosper,2007,200810,-1.48776,22
+Prosper,2007,200905,-20.76923,29
+Prosper,2007,200907,0.0,31
+Prosper,2007,200908,3.54839,32
+Prosper,2007,200909,0.22082,33
+Prosper,2007,200910,3.66812,34
+Prosper,2007,200911,1.66667,35
+Prosper,2007,200912,3.22382,36
+Prosper,2007,201001,2.32737,37
+Prosper,2007,201002,1.03641,38
+Prosper,2007,201003,3.33333,39
+Prosper,2007,201004,2.1875,40
+Prosper,2007,201005,1.53675,41
+Prosper,2007,201006,0.83821,42
+Prosper,2007,201007,3.53448,43
+Prosper,2007,201008,5.09346,44
+Prosper,2007,201009,3.35106,45
+Prosper,2007,201010,3.69565,46
+Prosper,2007,201011,3.16406,47
+Prosper,2007,201012,1.34948,48
+Prosper,2007,201101,5.08197,49
+Prosper,2007,201102,2.78132,50
+Prosper,2007,201103,5.1782,51
+Prosper,2008,200905,-13.07692,17
+Prosper,2008,200907,5.0,19
+Prosper,2008,200908,5.16129,20
+Prosper,2008,200909,4.32177,21
+Prosper,2008,200910,4.54148,22
+Prosper,2008,200911,4.24603,23
+Prosper,2008,200912,5.89322,24
+Prosper,2008,201001,5.39642,25
+Prosper,2008,201002,2.43697,26
+Prosper,2008,201003,3.53535,27
+Prosper,2008,201004,3.75,28
+Prosper,2008,201005,4.43207,29
+Prosper,2008,201006,4.34698,30
+Prosper,2008,201007,5.68966,31
+Prosper,2008,201008,7.42991,32
+Prosper,2008,201009,8.67021,33
+Prosper,2008,201010,7.82609,34
+Prosper,2008,201011,6.28906,35
+Prosper,2008,201012,6.88581,36
+Prosper,2008,201101,7.65808,37
+Prosper,2008,201102,7.0276,38
+Prosper,2008,201103,8.53249,39
+Prosper,2009,201001,2.58312,13
+Prosper,2009,201002,1.31653,14
+Prosper,2009,201003,0.50505,15
+Prosper,2009,201004,1.49306,16
+Prosper,2009,201005,-0.91314,17
+Prosper,2009,201006,-0.52632,18
+Prosper,2009,201007,2.24138,19
+Prosper,2009,201008,1.58879,20
+Prosper,2009,201009,2.55319,21
+Prosper,2009,201010,1.73913,22
+Prosper,2009,201011,1.40625,23
+Prosper,2009,201012,2.73356,24
+Prosper,2009,201101,2.27166,25
+Prosper,2009,201102,3.20594,26
+Prosper,2009,201103,2.24319,27
+Lending Club (fixed model 2007-09),2010,201101,-0.27322,13
+Lending Club (fixed model 2007-09),2010,201102,1.94969,14
+Lending Club (fixed model 2007-09),2010,201103,0.38224,15
+Lending Club (fixed model 2007-09),2010,201104,-0.02203,16
+Lending Club (fixed model 2007-09),2010,201105,-1.70098,17
+Lending Club (fixed model 2007-09),2010,201106,-0.1569,18
+Lending Club (fixed model 2007-09),2010,201107,-0.74919,19
+Lending Club (fixed model 2007-09),2010,201108,-1.38535,20
+Lending Club (fixed model 2007-09),2010,201109,-0.58282,21
+Lending Club (fixed model 2007-09),2010,201110,-1.2101,22
+Lending Club (fixed model 2007-09),2010,201111,-0.08174,23
+Lending Club (fixed model 2007-09),2010,201112,-3.96364,24
+Lending Club (fixed model 2007-09),2010,201201,-4.35819,25
+Lending Club (fixed model 2007-09),2010,201202,-4.61233,26
+Lending Club (fixed model 2007-09),2010,201203,-2.66608,27
+Lending Club (fixed model 2007-09),2010,201204,-3.61702,28
+Lending Club (fixed model 2007-09),2010,201205,-4.84286,29
+Lending Club (fixed model 2007-09),2010,201206,-6.64388,30
+Lending Club (fixed model 2007-09),2010,201207,-6.2886,31
+Lending Club (fixed model 2007-09),2010,201208,-4.34599,32
+Lending Club (fixed model 2007-09),2010,201209,-4.18905,33
+Lending Club (fixed model 2007-09),2010,201210,-4.18769,34
+Lending Club (fixed model 2007-09),2010,201211,-4.4186,35
+Lending Club (fixed model 2007-09),2010,201212,-3.38976,36
+Lending Club (fixed model 2007-09),2010,201301,-4.09321,37
+Lending Club (fixed model 2007-09),2010,201302,-4.11032,38
+Lending Club (fixed model 2007-09),2010,201303,-3.24171,39
+Lending Club (fixed model 2007-09),2010,201304,-3.52056,40
+Lending Club (fixed model 2007-09),2010,201305,-3.99755,41
+Lending Club (fixed model 2007-09),2010,201306,-3.45879,42
+Lending Club (fixed model 2007-09),2010,201307,-3.9847,43
+Lending Club (fixed model 2007-09),2010,201308,-3.65369,44
+Lending Club (fixed model 2007-09),2010,201309,-3.24306,45
+Lending Club (fixed model 2007-09),2010,201310,-2.80111,46
+Lending Club (fixed model 2007-09),2010,201311,-2.76904,47
+Lending Club (fixed model 2007-09),2010,201312,-2.56071,48
+Lending Club (fixed model 2007-09),2010,201401,-3.55366,49
+Lending Club (fixed model 2007-09),2010,201402,-4.05697,50
+Lending Club (fixed model 2007-09),2010,201403,-4.05391,51
+Lending Club (fixed model 2007-09),2010,201404,-4.26042,52
+Lending Club (fixed model 2007-09),2010,201405,-4.37555,53
+Lending Club (fixed model 2007-09),2010,201406,-4.74388,54
+Lending Club (fixed model 2007-09),2010,201407,-4.48367,55
+Lending Club (fixed model 2007-09),2010,201408,-4.39394,56
+Lending Club (fixed model 2007-09),2010,201409,-4.93376,57
+Lending Club (fixed model 2007-09),2010,201410,-5.91165,58
+Lending Club (fixed model 2007-09),2010,201411,-5.10801,59
+Lending Club (fixed model 2007-09),2010,201412,-4.33463,60
+Lending Club (fixed model 2007-09),2010,201501,-5.58043,61
+Lending Club (fixed model 2007-09),2010,201502,-4.86796,62
+Lending Club (fixed model 2007-09),2010,201503,-6.18019,63
+Lending Club (fixed model 2007-09),2010,201504,-6.37419,64
+Lending Club (fixed model 2007-09),2010,201505,-6.0806,65
+Lending Club (fixed model 2007-09),2010,201506,-5.98594,66
+Lending Club (fixed model 2007-09),2010,201507,-5.29013,67
+Lending Club (fixed model 2007-09),2010,201508,-4.64407,68
+Lending Club (fixed model 2007-09),2010,201509,-5.75432,69
+Lending Club (fixed model 2007-09),2010,201510,-4.64261,70
+Lending Club (fixed model 2007-09),2010,201511,-5.36883,71
+Lending Club (fixed model 2007-09),2010,201512,-6.26028,72
+Lending Club (fixed model 2007-09),2011,201201,-2.68392,13
+Lending Club (fixed model 2007-09),2011,201202,-2.47515,14
+Lending Club (fixed model 2007-09),2011,201203,-1.11603,15
+Lending Club (fixed model 2007-09),2011,201204,-2.22437,16
+Lending Club (fixed model 2007-09),2011,201205,-3.36615,17
+Lending Club (fixed model 2007-09),2011,201206,-4.49077,18
+Lending Club (fixed model 2007-09),2011,201207,-4.02022,19
+Lending Club (fixed model 2007-09),2011,201208,-2.54102,20
+Lending Club (fixed model 2007-09),2011,201209,-2.58971,21
+Lending Club (fixed model 2007-09),2011,201210,-2.0888,22
+Lending Club (fixed model 2007-09),2011,201211,-2.57836,23
+Lending Club (fixed model 2007-09),2011,201212,-0.61198,24
+Lending Club (fixed model 2007-09),2011,201301,-1.15478,25
+Lending Club (fixed model 2007-09),2011,201302,-1.43005,26
+Lending Club (fixed model 2007-09),2011,201303,-0.59014,27
+Lending Club (fixed model 2007-09),2011,201304,-1.24783,28
+Lending Club (fixed model 2007-09),2011,201305,-1.70778,29
+Lending Club (fixed model 2007-09),2011,201306,-1.30435,30
+Lending Club (fixed model 2007-09),2011,201307,-1.34785,31
+Lending Club (fixed model 2007-09),2011,201308,-0.91602,32
+Lending Club (fixed model 2007-09),2011,201309,-0.98233,33
+Lending Club (fixed model 2007-09),2011,201310,-0.7653,34
+Lending Club (fixed model 2007-09),2011,201311,-0.59743,35
+Lending Club (fixed model 2007-09),2011,201312,-0.39901,36
+Lending Club (fixed model 2007-09),2011,201401,-1.15856,37
+Lending Club (fixed model 2007-09),2011,201402,-1.52259,38
+Lending Club (fixed model 2007-09),2011,201403,-1.74367,39
+Lending Club (fixed model 2007-09),2011,201404,-1.88637,40
+Lending Club (fixed model 2007-09),2011,201405,-2.1261,41
+Lending Club (fixed model 2007-09),2011,201406,-2.61798,42
+Lending Club (fixed model 2007-09),2011,201407,-2.41307,43
+Lending Club (fixed model 2007-09),2011,201408,-1.9697,44
+Lending Club (fixed model 2007-09),2011,201409,-2.5576,45
+Lending Club (fixed model 2007-09),2011,201410,-3.29719,46
+Lending Club (fixed model 2007-09),2011,201411,-2.63097,47
+Lending Club (fixed model 2007-09),2011,201412,-2.12451,48
+Lending Club (fixed model 2007-09),2011,201501,-3.24246,49
+Lending Club (fixed model 2007-09),2011,201502,-2.60442,50
+Lending Club (fixed model 2007-09),2011,201503,-3.85519,51
+Lending Club (fixed model 2007-09),2011,201504,-3.91739,52
+Lending Club (fixed model 2007-09),2011,201505,-3.8384,53
+Lending Club (fixed model 2007-09),2011,201506,-4.06651,54
+Lending Club (fixed model 2007-09),2011,201507,-3.18986,55
+Lending Club (fixed model 2007-09),2011,201508,-2.53785,56
+Lending Club (fixed model 2007-09),2011,201509,-3.41401,57
+Lending Club (fixed model 2007-09),2011,201510,-2.54664,58
+Lending Club (fixed model 2007-09),2011,201511,-3.2307,59
+Lending Club (fixed model 2007-09),2011,201512,-3.93279,60
+Lending Club (fixed model 2007-09),2012,201301,1.82107,13
+Lending Club (fixed model 2007-09),2012,201302,1.45772,14
+Lending Club (fixed model 2007-09),2012,201303,2.17462,15
+Lending Club (fixed model 2007-09),2012,201304,1.45918,16
+Lending Club (fixed model 2007-09),2012,201305,0.70465,17
+Lending Club (fixed model 2007-09),2012,201306,1.84945,18
+Lending Club (fixed model 2007-09),2012,201307,1.73632,19
+Lending Club (fixed model 2007-09),2012,201308,1.99492,20
+Lending Club (fixed model 2007-09),2012,201309,1.40464,21
+Lending Club (fixed model 2007-09),2012,201310,1.75016,22
+Lending Club (fixed model 2007-09),2012,201311,1.89267,23
+Lending Club (fixed model 2007-09),2012,201312,1.77221,24
+Lending Club (fixed model 2007-09),2012,201401,1.25511,25
+Lending Club (fixed model 2007-09),2012,201402,0.88409,26
+Lending Club (fixed model 2007-09),2012,201403,0.43821,27
+Lending Club (fixed model 2007-09),2012,201404,0.54402,28
+Lending Club (fixed model 2007-09),2012,201405,0.26042,29
+Lending Club (fixed model 2007-09),2012,201406,-0.30881,30
+Lending Club (fixed model 2007-09),2012,201407,0.0843,31
+Lending Club (fixed model 2007-09),2012,201408,0.80542,32
+Lending Club (fixed model 2007-09),2012,201409,0.06336,33
+Lending Club (fixed model 2007-09),2012,201410,-0.35341,34
+Lending Club (fixed model 2007-09),2012,201411,0.25352,35
+Lending Club (fixed model 2007-09),2012,201412,0.05447,36
+Lending Club (fixed model 2007-09),2012,201501,-0.54342,37
+Lending Club (fixed model 2007-09),2012,201502,-0.15225,38
+Lending Club (fixed model 2007-09),2012,201503,-1.1069,39
+Lending Club (fixed model 2007-09),2012,201504,-1.06012,40
+Lending Club (fixed model 2007-09),2012,201505,-1.45792,41
+Lending Club (fixed model 2007-09),2012,201506,-1.46077,42
+Lending Club (fixed model 2007-09),2012,201507,-0.62593,43
+Lending Club (fixed model 2007-09),2012,201508,-0.02938,44
+Lending Club (fixed model 2007-09),2012,201509,-0.75404,45
+Lending Club (fixed model 2007-09),2012,201510,-0.15541,46
+Lending Club (fixed model 2007-09),2012,201511,-0.62647,47
+Lending Club (fixed model 2007-09),2012,201512,-1.20844,48
+Lending Club (fixed model 2007-09),2013,201401,-0.23023,13
+Lending Club (fixed model 2007-09),2013,201402,-0.63851,14
+Lending Club (fixed model 2007-09),2013,201403,-0.88192,15
+Lending Club (fixed model 2007-09),2013,201404,-1.04941,16
+Lending Club (fixed model 2007-09),2013,201405,-1.28759,17
+Lending Club (fixed model 2007-09),2013,201406,-1.68331,18
+Lending Club (fixed model 2007-09),2013,201407,-1.45416,19
+Lending Club (fixed model 2007-09),2013,201408,-0.90112,20
+Lending Club (fixed model 2007-09),2013,201409,-1.69355,21
+Lending Club (fixed model 2007-09),2013,201410,-2.24498,22
+Lending Club (fixed model 2007-09),2013,201411,-1.45389,23
+Lending Club (fixed model 2007-09),2013,201412,-1.22179,24
+Lending Club (fixed model 2007-09),2013,201501,-2.28561,25
+Lending Club (fixed model 2007-09),2013,201502,-1.66128,26
+Lending Club (fixed model 2007-09),2013,201503,-2.86328,27
+Lending Club (fixed model 2007-09),2013,201504,-2.84197,28
+Lending Club (fixed model 2007-09),2013,201505,-2.88522,29
+Lending Club (fixed model 2007-09),2013,201506,-2.98962,30
+Lending Club (fixed model 2007-09),2013,201507,-2.24525,31
+Lending Club (fixed model 2007-09),2013,201508,-1.6339,32
+Lending Club (fixed model 2007-09),2013,201509,-2.50642,33
+Lending Club (fixed model 2007-09),2013,201510,-1.67061,34
+Lending Club (fixed model 2007-09),2013,201511,-2.20868,35
+Lending Club (fixed model 2007-09),2013,201512,-2.86378,36
+Prosper (fixed model 2006),2007,200801,-3.90476,13
+Prosper (fixed model 2006),2007,200802,-5.39313,14
+Prosper (fixed model 2006),2007,200803,-4.62979,15
+Prosper (fixed model 2006),2007,200804,-6.4751,16
+Prosper (fixed model 2006),2007,200805,-7.03057,17
+Prosper (fixed model 2006),2007,200806,-6.29526,18
+Prosper (fixed model 2006),2007,200807,-3.03075,19
+Prosper (fixed model 2006),2007,200808,-3.66667,20
+Prosper (fixed model 2006),2007,200809,-1.58301,21
+Prosper (fixed model 2006),2007,200810,-1.48776,22
+Prosper (fixed model 2006),2007,200905,-20.76923,29
+Prosper (fixed model 2006),2007,200907,0.0,31
+Prosper (fixed model 2006),2007,200908,3.54839,32
+Prosper (fixed model 2006),2007,200909,0.22082,33
+Prosper (fixed model 2006),2007,200910,3.66812,34
+Prosper (fixed model 2006),2007,200911,1.66667,35
+Prosper (fixed model 2006),2007,200912,3.22382,36
+Prosper (fixed model 2006),2007,201001,2.32737,37
+Prosper (fixed model 2006),2007,201002,1.03641,38
+Prosper (fixed model 2006),2007,201003,3.33333,39
+Prosper (fixed model 2006),2007,201004,2.1875,40
+Prosper (fixed model 2006),2007,201005,1.53675,41
+Prosper (fixed model 2006),2007,201006,0.83821,42
+Prosper (fixed model 2006),2007,201007,3.53448,43
+Prosper (fixed model 2006),2007,201008,5.09346,44
+Prosper (fixed model 2006),2007,201009,3.35106,45
+Prosper (fixed model 2006),2007,201010,3.69565,46
+Prosper (fixed model 2006),2007,201011,3.16406,47
+Prosper (fixed model 2006),2007,201012,1.34948,48
+Prosper (fixed model 2006),2007,201101,5.08197,49
+Prosper (fixed model 2006),2007,201102,2.78132,50
+Prosper (fixed model 2006),2007,201103,5.1782,51
+Prosper (fixed model 2006),2008,200905,-13.07692,17
+Prosper (fixed model 2006),2008,200907,0.0,19
+Prosper (fixed model 2006),2008,200908,5.96774,20
+Prosper (fixed model 2006),2008,200909,2.74448,21
+Prosper (fixed model 2006),2008,200910,4.54148,22
+Prosper (fixed model 2006),2008,200911,4.64286,23
+Prosper (fixed model 2006),2008,200912,5.68789,24
+Prosper (fixed model 2006),2008,201001,4.88491,25
+Prosper (fixed model 2006),2008,201002,3.55742,26
+Prosper (fixed model 2006),2008,201003,5.35354,27
+Prosper (fixed model 2006),2008,201004,4.09722,28
+Prosper (fixed model 2006),2008,201005,4.65479,29
+Prosper (fixed model 2006),2008,201006,3.76218,30
+Prosper (fixed model 2006),2008,201007,5.90517,31
+Prosper (fixed model 2006),2008,201008,6.72897,32
+Prosper (fixed model 2006),2008,201009,6.80851,33
+Prosper (fixed model 2006),2008,201010,7.6087,34
+Prosper (fixed model 2006),2008,201011,5.89844,35
+Prosper (fixed model 2006),2008,201012,5.84775,36
+Prosper (fixed model 2006),2008,201101,7.89227,37
+Prosper (fixed model 2006),2008,201102,7.0276,38
+Prosper (fixed model 2006),2008,201103,8.53249,39
+Prosper (fixed model 2006),2009,201001,0.28133,13
+Prosper (fixed model 2006),2009,201002,-0.92437,14
+Prosper (fixed model 2006),2009,201003,0.70707,15
+Prosper (fixed model 2006),2009,201004,-0.76389,16
+Prosper (fixed model 2006),2009,201005,-1.13586,17
+Prosper (fixed model 2006),2009,201006,-2.67057,18
+Prosper (fixed model 2006),2009,201007,0.08621,19
+Prosper (fixed model 2006),2009,201008,1.1215,20
+Prosper (fixed model 2006),2009,201009,-0.10638,21
+Prosper (fixed model 2006),2009,201010,-0.65217,22
+Prosper (fixed model 2006),2009,201011,-0.9375,23
+Prosper (fixed model 2006),2009,201012,-3.3218,24
+Prosper (fixed model 2006),2009,201101,-1.94379,25
+Prosper (fixed model 2006),2009,201102,0.23355,26
+Prosper (fixed model 2006),2009,201103,1.8239,27

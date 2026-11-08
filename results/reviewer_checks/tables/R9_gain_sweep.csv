@@ -1,0 +1,45 @@
+portfolio,arrival,gain,pooled,last_year,size
+"Lending Club (2,500/month sample)",static,,0.9075,0.89237,
+"Lending Club (2,500/month sample)",uniform 6 months,0.01,0.90563,0.889,1.17342
+"Lending Club (2,500/month sample)",uniform 6 months,0.03,0.90319,0.8855,1.16083
+"Lending Club (2,500/month sample)",uniform 6 months,0.1,0.89772,0.8829,1.13403
+"Lending Club (2,500/month sample)",uniform 6 months,0.25,0.89992,0.90603,1.14454
+"Lending Club (2,500/month sample)",uniform 6 months,0.5,0.87758,0.81907,1.15857
+"Lending Club (2,500/month sample)",uniform 6 months,1.0,0.85024,0.76887,1.19444
+"Lending Club (2,500/month sample)",uniform 6 months,2.0,0.78616,0.71817,1.13677
+"Lending Club (2,500/month sample)",uniform 6 months,4.0,0.66194,0.58417,0.99471
+"Lending Club (2,500/month sample)",uniform 12 months,0.01,0.90608,0.8891,1.17561
+"Lending Club (2,500/month sample)",uniform 12 months,0.03,0.90378,0.88437,1.16463
+"Lending Club (2,500/month sample)",uniform 12 months,0.1,0.89491,0.8658,1.12527
+"Lending Club (2,500/month sample)",uniform 12 months,0.25,0.88129,0.84867,1.08973
+"Lending Club (2,500/month sample)",uniform 12 months,0.5,0.87471,0.86807,1.13664
+"Lending Club (2,500/month sample)",uniform 12 months,1.0,0.85632,0.88023,1.15424
+"Lending Club (2,500/month sample)",uniform 12 months,2.0,0.81476,0.87993,1.13228
+"Lending Club (2,500/month sample)",uniform 12 months,4.0,0.73708,0.88637,1.05937
+"Lending Club (2,500/month sample)",immediate (gamma 0.015),,0.90001,0.90003,1.15704
+Prosper design B,static,,0.91612,0.92582,
+Prosper design B,uniform 6 months,0.01,0.91526,0.92509,1.33166
+Prosper design B,uniform 6 months,0.03,0.91339,0.92,1.32506
+Prosper design B,uniform 6 months,0.1,0.90981,0.91273,1.30987
+Prosper design B,uniform 6 months,0.25,0.9035,0.89455,1.28735
+Prosper design B,uniform 6 months,0.5,0.8969,0.87855,1.25724
+Prosper design B,uniform 6 months,1.0,0.885,0.90545,1.22311
+Prosper design B,uniform 6 months,2.0,0.86779,0.95709,1.22096
+Prosper design B,uniform 6 months,4.0,0.82679,0.99636,1.18124
+Prosper design B,uniform 12 months,0.01,0.91597,0.92509,1.33295
+Prosper design B,uniform 12 months,0.03,0.91583,0.92436,1.33195
+Prosper design B,uniform 12 months,0.1,0.91483,0.91927,1.32836
+Prosper design B,uniform 12 months,0.25,0.91311,0.91055,1.32205
+Prosper design B,uniform 12 months,0.5,0.90995,0.89455,1.31345
+Prosper design B,uniform 12 months,1.0,0.90393,0.864,1.2928
+Prosper design B,uniform 12 months,2.0,0.88801,0.78327,1.25337
+Prosper design B,uniform 12 months,4.0,0.8645,0.664,1.20992
+Prosper design B,exact arrival,0.01,0.91526,0.92509,1.3318
+Prosper design B,exact arrival,0.03,0.91526,0.92509,1.3318
+Prosper design B,exact arrival,0.1,0.91382,0.92364,1.32535
+Prosper design B,exact arrival,0.25,0.91052,0.91927,1.31288
+Prosper design B,exact arrival,0.5,0.90751,0.91927,1.30112
+Prosper design B,exact arrival,1.0,0.90336,0.91855,1.28104
+Prosper design B,exact arrival,2.0,0.8969,0.93091,1.25824
+Prosper design B,exact arrival,4.0,0.90077,0.984,1.31818
+Prosper design B,immediate (gamma 0.015),,0.9002,0.89964,1.28334

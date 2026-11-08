@@ -1,0 +1,12 @@
+Licence for results, tables, figures and documentation
+------------------------------------------------------
+The files in results/ and paper_figures/, and the documentation (README.md),
+are licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 [authors withheld for anonymous review].
+
+The code in code/ is licensed separately under the MIT licence (see LICENSE).
+
+The Lending Club extracts in workspace/ are derived from third-party data and are
+NOT covered by either licence above; see README.md, section 3.

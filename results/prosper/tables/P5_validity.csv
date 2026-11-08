@@ -1,0 +1,43 @@
+design,pipeline,method,period,N,actual_default,mean_pred,cov,ci_lo,ci_hi,cov_default,size,share_review,share_reject_only
+B,baseline: P0 + LGBM default,static,2009 (calib.),2047,0.15193,0.25577,0.90083,0.88712,0.91304,0.37942,1.22814,0.22814,0.00928
+B,baseline: P0 + LGBM default,static,2010,5599,0.16699,0.2751,0.91373,0.90609,0.92081,0.5123,1.30541,0.30541,0.00714
+B,baseline: P0 + LGBM default,static,2011Q1,1375,0.21382,0.32894,0.92582,0.91075,0.93852,0.66667,1.448,0.448,0.00436
+B,baseline: P0 + LGBM default,class-conditional,2009 (calib.),2047,0.15193,0.25577,0.90132,0.88764,0.9135,0.90354,1.64485,0.64485,0.1148
+B,baseline: P0 + LGBM default,class-conditional,2010,5599,0.16699,0.2751,0.87962,0.87084,0.88789,0.90374,1.59975,0.59975,0.15038
+B,baseline: P0 + LGBM default,class-conditional,2011Q1,1375,0.21382,0.32894,0.85236,0.83263,0.87013,0.97619,1.63418,0.63418,0.22255
+B,baseline: P0 + LGBM default,bin-conditional,2009 (calib.),2047,0.15193,0.25577,0.9023,0.88867,0.91441,0.46624,1.28872,0.30532,0.01563
+B,baseline: P0 + LGBM default,bin-conditional,2010,5599,0.16699,0.2751,0.91016,0.90239,0.91737,0.57112,1.36149,0.3815,0.01322
+B,baseline: P0 + LGBM default,bin-conditional,2011Q1,1375,0.21382,0.32894,0.936,0.92181,0.94776,0.7449,1.50691,0.51127,0.01382
+B,selected: P3 applicant-only rich + LGBM regularised,static,2009 (calib.),2047,0.15193,0.18762,0.90083,0.88712,0.91304,0.34727,1.21104,0.21104,0.0
+B,selected: P3 applicant-only rich + LGBM regularised,static,2010,5599,0.16699,0.19345,0.89623,0.88797,0.90395,0.37861,1.22754,0.22754,0.0
+B,selected: P3 applicant-only rich + LGBM regularised,static,2011Q1,1375,0.21382,0.2138,0.88873,0.87101,0.90428,0.47959,1.30909,0.30909,0.0
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,2009 (calib.),2047,0.15193,0.18762,0.90132,0.88764,0.9135,0.90354,1.63117,0.63117,0.11773
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,2010,5599,0.16699,0.19345,0.90641,0.8985,0.91376,0.92299,1.6594,0.6594,0.11859
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,2011Q1,1375,0.21382,0.2138,0.89527,0.87797,0.91037,0.95578,1.69527,0.69527,0.14982
+B,selected: P3 applicant-only rich + LGBM regularised,bin-conditional,2009 (calib.),2047,0.15193,0.18762,0.9023,0.88867,0.91441,0.41479,1.26038,0.27992,0.0
+B,selected: P3 applicant-only rich + LGBM regularised,bin-conditional,2010,5599,0.16699,0.19345,0.88998,0.88152,0.89791,0.41283,1.26594,0.29345,0.00018
+B,selected: P3 applicant-only rich + LGBM regularised,bin-conditional,2011Q1,1375,0.21382,0.2138,0.88582,0.86792,0.90156,0.4966,1.35782,0.37091,0.0
+A,baseline: P0 + LGBM default,static,2008 (calib.),11551,0.32967,0.33166,0.9001,0.89449,0.90543,0.7282,1.50706,0.50706,0.03402
+A,baseline: P0 + LGBM default,static,2009,2047,0.15193,0.26316,0.94724,0.93669,0.95611,0.66238,1.42697,0.42697,0.00391
+A,baseline: P0 + LGBM default,static,2010,5599,0.16699,0.29869,0.95535,0.94962,0.96045,0.74973,1.53438,0.53438,0.005
+A,baseline: P0 + LGBM default,static,2011Q1,1375,0.21382,0.36605,0.97745,0.96818,0.98407,0.90136,1.68873,0.68873,0.00509
+A,baseline: P0 + LGBM default,class-conditional,2008 (calib.),11551,0.32967,0.33166,0.90027,0.89467,0.9056,0.90047,1.59458,0.59458,0.15886
+A,baseline: P0 + LGBM default,class-conditional,2009,2047,0.15193,0.26316,0.93454,0.92299,0.94446,0.80707,1.55594,0.55594,0.05716
+A,baseline: P0 + LGBM default,class-conditional,2010,5599,0.16699,0.29869,0.92106,0.9137,0.92784,0.85348,1.5985,0.5985,0.08055
+A,baseline: P0 + LGBM default,class-conditional,2011Q1,1375,0.21382,0.36605,0.92073,0.90525,0.93386,0.96939,1.70764,0.70764,0.12
+A,baseline: P0 + LGBM default,bin-conditional,2008 (calib.),11551,0.32967,0.33166,0.90044,0.89485,0.90577,0.7584,1.53969,0.53969,0.05818
+A,baseline: P0 + LGBM default,bin-conditional,2009,2047,0.15193,0.26316,0.94138,0.93035,0.95075,0.65273,1.4553,0.4553,0.01172
+A,baseline: P0 + LGBM default,bin-conditional,2010,5599,0.16699,0.29869,0.94535,0.93908,0.951,0.72299,1.52599,0.52599,0.01357
+A,baseline: P0 + LGBM default,bin-conditional,2011Q1,1375,0.21382,0.36605,0.96509,0.95402,0.97357,0.87075,1.664,0.664,0.01673
+A,selected: P4 everything + LGBM regularised,static,2008 (calib.),11551,0.32967,0.3444,0.9001,0.89449,0.90543,0.73897,1.49147,0.49147,0.04787
+A,selected: P4 everything + LGBM regularised,static,2009,2047,0.15193,0.26604,0.94382,0.93299,0.95299,0.63666,1.42062,0.42062,0.00293
+A,selected: P4 everything + LGBM regularised,static,2010,5599,0.16699,0.2979,0.95731,0.9517,0.9623,0.76043,1.52581,0.52581,0.00375
+A,selected: P4 everything + LGBM regularised,static,2011Q1,1375,0.21382,0.35137,0.976,0.96649,0.98286,0.89116,1.65309,0.65309,0.00145
+A,selected: P4 everything + LGBM regularised,class-conditional,2008 (calib.),11551,0.32967,0.3444,0.90027,0.89467,0.9056,0.90047,1.58419,0.58419,0.16146
+A,selected: P4 everything + LGBM regularised,class-conditional,2009,2047,0.15193,0.26604,0.9531,0.94306,0.96144,0.81672,1.57938,0.57938,0.03175
+A,selected: P4 everything + LGBM regularised,class-conditional,2010,5599,0.16699,0.2979,0.94838,0.94227,0.95388,0.85775,1.63154,0.63154,0.04483
+A,selected: P4 everything + LGBM regularised,class-conditional,2011Q1,1375,0.21382,0.35137,0.97309,0.96313,0.98042,0.96939,1.76436,0.76436,0.04582
+A,selected: P4 everything + LGBM regularised,bin-conditional,2008 (calib.),11551,0.32967,0.3444,0.90044,0.89485,0.90577,0.7584,1.53311,0.53311,0.0632
+A,selected: P4 everything + LGBM regularised,bin-conditional,2009,2047,0.15193,0.26604,0.93894,0.92772,0.94851,0.62379,1.44553,0.44553,0.00684
+A,selected: P4 everything + LGBM regularised,bin-conditional,2010,5599,0.16699,0.2979,0.9457,0.93946,0.95134,0.6984,1.51956,0.51956,0.00536
+A,selected: P4 everything + LGBM regularised,bin-conditional,2011Q1,1375,0.21382,0.35137,0.96,0.9483,0.96914,0.82313,1.63491,0.63491,0.00436

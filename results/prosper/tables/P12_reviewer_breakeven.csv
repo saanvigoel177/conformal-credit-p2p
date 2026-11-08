@@ -1,0 +1,25 @@
+design,pipeline,policy,review_cost,share_review,breakeven_accuracy,ci_lo,ci_hi
+B,baseline: P0 + LGBM default,static,0.0,0.33352,0.7042,0.65507,0.74919
+B,baseline: P0 + LGBM default,static,0.01,0.33352,0.73127,0.68206,0.77656
+B,baseline: P0 + LGBM default,class-conditional,0.0,0.60654,0.89224,0.82706,0.9482
+B,baseline: P0 + LGBM default,class-conditional,0.01,0.60654,0.92875,0.86263,0.98619
+B,baseline: P0 + LGBM default,bin-conditional,0.0,0.40708,0.72961,0.67728,0.77844
+B,baseline: P0 + LGBM default,bin-conditional,0.01,0.40708,0.75839,0.70532,0.8081
+B,selected: P3 applicant-only rich + LGBM regularised,static,0.0,0.24362,0.68953,0.64642,0.73028
+B,selected: P3 applicant-only rich + LGBM regularised,static,0.01,0.24362,0.71669,0.67345,0.75788
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,0.0,0.66648,0.83324,0.78151,0.88577
+B,selected: P3 applicant-only rich + LGBM regularised,class-conditional,0.01,0.66648,0.87023,0.81779,0.9241
+B,selected: P3 applicant-only rich + LGBM regularised,bin-conditional,0.0,0.30872,0.71174,0.66633,0.75368
+B,selected: P3 applicant-only rich + LGBM regularised,bin-conditional,0.01,0.30872,0.74302,0.69683,0.78609
+A,baseline: P0 + LGBM default,static,0.0,0.53353,0.73198,0.69911,0.76458
+A,baseline: P0 + LGBM default,static,0.01,0.53353,0.7617,0.72864,0.79476
+A,baseline: P0 + LGBM default,class-conditional,0.0,0.60548,0.8138,0.77126,0.85613
+A,baseline: P0 + LGBM default,class-conditional,0.01,0.60548,0.84765,0.80529,0.89058
+A,baseline: P0 + LGBM default,bin-conditional,0.0,0.53098,0.74401,0.7089,0.77923
+A,baseline: P0 + LGBM default,bin-conditional,0.01,0.53098,0.77542,0.73984,0.81083
+A,selected: P4 everything + LGBM regularised,static,0.0,0.52134,0.72978,0.69478,0.76275
+A,selected: P4 everything + LGBM regularised,static,0.01,0.52134,0.75845,0.72337,0.79168
+A,selected: P4 everything + LGBM regularised,class-conditional,0.0,0.63995,0.76448,0.7261,0.80413
+A,selected: P4 everything + LGBM regularised,class-conditional,0.01,0.63995,0.79705,0.75805,0.83721
+A,selected: P4 everything + LGBM regularised,bin-conditional,0.0,0.52034,0.73275,0.69551,0.76812
+A,selected: P4 everything + LGBM regularised,bin-conditional,0.01,0.52034,0.76383,0.72625,0.7998

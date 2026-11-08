@@ -1,0 +1,5 @@
+pipeline,period,N,distinct_p,distinct_share,max_p,share_p_above_half,q_hat,tie_mass_at_q,eps0
+paper: F0 + LGBM default,2012 (calib.),41703,41310,0.99058,0.6952,0.00096,0.80602,2e-05,0.0
+paper: F0 + LGBM default,2013-15 (test),512167,504498,0.98503,0.79917,0.00181,0.80602,1e-05,0.0
+selected: F3 + LGBM regularised,2012 (calib.),41703,41703,1.0,0.52554,2e-05,0.82348,2e-05,0.0
+selected: F3 + LGBM regularised,2013-15 (test),512167,512165,1.0,0.51584,1e-05,0.82348,1e-05,0.0

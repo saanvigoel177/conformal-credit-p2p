@@ -1,0 +1,65 @@
+design,pipeline,policy,rule,share_approved,share_review,profit_per_applicant,gain_vs_approve_all,gain_ci_lo,gain_ci_hi,roi_on_approved,default_rate_approved
+B,baseline: P0 + LGBM default,Approve all,single,1.0,0.0,610.04821,0.0,0.0,0.0,0.12132,0.17623
+B,baseline: P0 + LGBM default,p_hat cutoff <= 0.537 (tuned on calibration-year profit),single,0.96401,0.0,590.59143,-19.45678,-32.70735,-8.12094,0.12189,0.16957
+B,baseline: P0 + LGBM default,"static conformal, alpha=0.17 (tuned)",review->reject,0.9263,0.00129,567.10585,-42.94235,-60.43562,-27.38454,0.12186,0.16316
+B,baseline: P0 + LGBM default,Oracle: approve iff profitable,single,0.86034,0.0,966.05248,356.00427,289.59583,423.95599,0.22097,0.04317
+B,baseline: P0 + LGBM default,"static conformal, alpha=0.10",review->reject,0.65988,0.33352,367.44397,-242.60424,-281.68302,-203.01305,0.10983,0.12038
+B,baseline: P0 + LGBM default,"static conformal, alpha=0.10",review->approve,0.9934,0.33352,604.65278,-5.39542,-12.00826,0.0286,0.1212,0.17523
+B,baseline: P0 + LGBM default,"static conformal, alpha=0.10",expert cost 0%,0.89877,0.33352,789.6659,179.6177,126.75081,238.32158,0.17402,0.08839
+B,baseline: P0 + LGBM default,"static conformal, alpha=0.10",expert cost 1%,0.89877,0.33352,773.23153,163.18332,112.7306,219.61212,0.17402,0.08839
+B,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",review->reject,0.22885,0.60654,84.97507,-525.07313,-583.94179,-462.59159,0.06563,0.06078
+B,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",review->approve,0.83539,0.60654,512.4215,-97.62671,-122.96508,-72.71631,0.1222,0.14779
+B,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",expert cost 0%,0.72584,0.60654,695.58965,85.54145,35.51329,143.33598,0.18674,0.01916
+B,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",expert cost 1%,0.72584,0.60654,666.60422,56.55602,9.30186,112.89002,0.18674,0.01916
+B,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",review->reject,0.57958,0.40708,302.35354,-307.69467,-345.41973,-269.49182,0.10203,0.11727
+B,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",review->approve,0.98666,0.40708,599.67303,-10.37518,-18.97219,-3.18827,0.12097,0.17352
+B,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",expert cost 0%,0.88342,0.40708,797.33428,187.28607,131.20368,250.04106,0.17812,0.07694
+B,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",expert cost 1%,0.88342,0.40708,777.39505,167.34685,113.68898,227.28765,0.17812,0.07694
+B,selected: P3 applicant-only rich + LGBM regularised,Approve all,single,1.0,0.0,610.04821,0.0,0.0,0.0,0.12132,0.17623
+B,selected: P3 applicant-only rich + LGBM regularised,p_hat cutoff <= 0.499 (tuned on calibration-year profit),single,0.99441,0.0,605.68205,-4.36616,-14.11896,2.54166,0.12127,0.17477
+B,selected: P3 applicant-only rich + LGBM regularised,"static conformal, alpha=0.15 (tuned)",review->reject,0.99197,0.00445,605.61247,-4.43573,-13.8884,1.64823,0.12153,0.17476
+B,selected: P3 applicant-only rich + LGBM regularised,Oracle: approve iff profitable,single,0.86034,0.0,966.05248,356.00427,289.59583,423.95599,0.22097,0.04317
+B,selected: P3 applicant-only rich + LGBM regularised,"static conformal, alpha=0.10",review->reject,0.75638,0.24362,442.16541,-167.88279,-198.68042,-139.20427,0.11558,0.13915
+B,selected: P3 applicant-only rich + LGBM regularised,"static conformal, alpha=0.10",review->approve,1.0,0.24362,610.04821,0.0,0.0,0.0,0.12132,0.17623
+B,selected: P3 applicant-only rich + LGBM regularised,"static conformal, alpha=0.10",expert cost 0%,0.92902,0.24362,747.54913,137.50093,102.41814,174.51818,0.15943,0.11329
+B,selected: P3 applicant-only rich + LGBM regularised,"static conformal, alpha=0.10",expert cost 1%,0.92902,0.24362,735.52235,125.47415,92.05971,160.62552,0.15943,0.11329
+B,selected: P3 applicant-only rich + LGBM regularised,"class-conditional conformal, alpha=0.10",review->reject,0.20878,0.66648,88.91925,-521.12896,-576.15254,-464.36528,0.08147,0.05838
+B,selected: P3 applicant-only rich + LGBM regularised,"class-conditional conformal, alpha=0.10",review->approve,0.87525,0.66648,534.17913,-75.86908,-97.22828,-55.22177,0.12126,0.15433
+B,selected: P3 applicant-only rich + LGBM regularised,"class-conditional conformal, alpha=0.10",expert cost 0%,0.75237,0.66648,759.42719,149.37898,94.13582,206.34555,0.19679,0.0162
+B,selected: P3 applicant-only rich + LGBM regularised,"class-conditional conformal, alpha=0.10",expert cost 1%,0.75237,0.66648,726.28916,116.24095,62.80196,171.2455,0.19679,0.0162
+B,selected: P3 applicant-only rich + LGBM regularised,"bin-conditional conformal, alpha=0.10",review->reject,0.69114,0.30872,402.09075,-207.95745,-236.82073,-177.38907,0.11503,0.14253
+B,selected: P3 applicant-only rich + LGBM regularised,"bin-conditional conformal, alpha=0.10",review->approve,0.99986,0.30872,610.64541,0.5972,0.0,1.89501,0.12147,0.17611
+B,selected: P3 applicant-only rich + LGBM regularised,"bin-conditional conformal, alpha=0.10",expert cost 0%,0.92228,0.30872,751.1951,141.1469,107.8681,179.30139,0.16114,0.10681
+B,selected: P3 applicant-only rich + LGBM regularised,"bin-conditional conformal, alpha=0.10",expert cost 1%,0.92228,0.30872,735.87812,125.82991,93.92947,162.63847,0.16114,0.10681
+A,baseline: P0 + LGBM default,Approve all,single,1.0,0.0,588.71868,0.0,0.0,0.0,0.12075,0.17071
+A,baseline: P0 + LGBM default,p_hat cutoff <= 0.320 (tuned on calibration-year profit),single,0.51036,0.0,237.80533,-350.91335,-393.44296,-306.26552,0.09109,0.0934
+A,baseline: P0 + LGBM default,"static conformal, alpha=0.12 (tuned)",review->reject,0.5087,0.48143,236.26168,-352.457,-395.51827,-306.93878,0.09077,0.09305
+A,baseline: P0 + LGBM default,Oracle: approve iff profitable,single,0.86454,0.0,928.68017,339.96148,280.17676,394.11558,0.21844,0.04283
+A,baseline: P0 + LGBM default,"static conformal, alpha=0.10",review->reject,0.4617,0.53353,203.71875,-384.99993,-427.85678,-339.30215,0.08557,0.08836
+A,baseline: P0 + LGBM default,"static conformal, alpha=0.10",review->approve,0.99523,0.53353,587.88202,-0.83667,-5.56549,4.10357,0.12118,0.16908
+A,baseline: P0 + LGBM default,"static conformal, alpha=0.10",expert cost 0%,0.86775,0.53353,811.60117,222.88249,165.29133,277.15963,0.18941,0.04701
+A,baseline: P0 + LGBM default,"static conformal, alpha=0.10",expert cost 1%,0.86775,0.53353,786.8927,198.17402,143.97737,249.78516,0.18941,0.04701
+A,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",review->reject,0.31327,0.60548,114.08544,-474.63324,-526.49396,-421.93314,0.06815,0.07289
+A,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",review->approve,0.91875,0.60548,547.55356,-41.16513,-59.5993,-20.87917,0.12288,0.15516
+A,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",expert cost 0%,0.79902,0.60548,741.75005,153.03137,103.95686,204.60156,0.18757,0.02858
+A,baseline: P0 + LGBM default,"class-conditional conformal, alpha=0.10",expert cost 1%,0.79902,0.60548,713.92994,125.21126,79.58374,174.83293,0.18757,0.02858
+A,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",review->reject,0.45538,0.53098,209.70752,-379.01116,-423.89936,-333.30748,0.09055,0.09859
+A,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",review->approve,0.98637,0.53098,580.07194,-8.64675,-14.52281,-3.25952,0.12058,0.167
+A,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",expert cost 0%,0.86653,0.53098,792.05875,203.34007,148.88806,256.11215,0.1852,0.05181
+A,baseline: P0 + LGBM default,"bin-conditional conformal, alpha=0.10",expert cost 1%,0.86653,0.53098,767.10853,178.38984,127.13186,228.83718,0.1852,0.05181
+A,selected: P4 everything + LGBM regularised,Approve all,single,1.0,0.0,588.71868,0.0,0.0,0.0,0.12075,0.17071
+A,selected: P4 everything + LGBM regularised,p_hat cutoff <= 0.314 (tuned on calibration-year profit),single,0.48775,0.0,232.54367,-356.17501,-401.31686,-312.53381,0.08793,0.08841
+A,selected: P4 everything + LGBM regularised,"static conformal, alpha=0.57 (tuned)",review->reject,0.4913,0.50493,236.29673,-352.42195,-396.49021,-308.94883,0.08869,0.08845
+A,selected: P4 everything + LGBM regularised,Oracle: approve iff profitable,single,0.86454,0.0,928.68017,339.96148,280.17676,394.11558,0.21844,0.04283
+A,selected: P4 everything + LGBM regularised,"static conformal, alpha=0.10",review->reject,0.47545,0.52134,225.31401,-363.40467,-406.8427,-320.8107,0.08726,0.08603
+A,selected: P4 everything + LGBM regularised,"static conformal, alpha=0.10",review->approve,0.99679,0.52134,587.29666,-1.42203,-6.6226,2.98008,0.12089,0.17004
+A,selected: P4 everything + LGBM regularised,"static conformal, alpha=0.10",expert cost 0%,0.8682,0.52134,803.23979,214.52111,159.3068,270.16227,0.18644,0.04711
+A,selected: P4 everything + LGBM regularised,"static conformal, alpha=0.10",expert cost 1%,0.8682,0.52134,780.48088,191.7622,139.83579,244.75172,0.18644,0.04711
+A,selected: P4 everything + LGBM regularised,"class-conditional conformal, alpha=0.10",review->reject,0.31804,0.63995,128.18111,-460.53758,-509.8307,-410.06048,0.07171,0.06936
+A,selected: P4 everything + LGBM regularised,"class-conditional conformal, alpha=0.10",review->approve,0.95799,0.63995,578.65233,-10.06636,-22.08642,3.79263,0.12352,0.16015
+A,selected: P4 everything + LGBM regularised,"class-conditional conformal, alpha=0.10",expert cost 0%,0.82663,0.63995,798.25193,209.53325,150.12449,270.61117,0.19404,0.02669
+A,selected: P4 everything + LGBM regularised,"class-conditional conformal, alpha=0.10",expert cost 1%,0.82663,0.63995,769.27926,180.56057,125.0782,238.76801,0.19404,0.02669
+A,selected: P4 everything + LGBM regularised,"bin-conditional conformal, alpha=0.10",review->reject,0.47412,0.52034,237.7086,-351.01008,-397.4603,-304.54603,0.09565,0.10545
+A,selected: P4 everything + LGBM regularised,"bin-conditional conformal, alpha=0.10",review->approve,0.99446,0.52034,586.05154,-2.66714,-6.93683,1.44625,0.12092,0.16977
+A,selected: P4 everything + LGBM regularised,"bin-conditional conformal, alpha=0.10",expert cost 0%,0.87562,0.52034,791.77195,203.05327,150.37654,260.03761,0.18287,0.0571
+A,selected: P4 everything + LGBM regularised,"bin-conditional conformal, alpha=0.10",expert cost 1%,0.87562,0.52034,768.15979,179.44111,129.21211,233.35025,0.18287,0.0571

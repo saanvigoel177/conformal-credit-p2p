@@ -1,0 +1,9 @@
+check,portfolio,period,estimate,lo,hi,extra
+coverage interval (calibration + month blocks),Lending Club,2013,0.91778,0.91475,0.92116,share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks),Lending Club,2014,0.90252,0.89876,0.90688,share of draws below 0.90: 0.09
+coverage interval (calibration + month blocks),Lending Club,2015,0.88995,0.8864,0.89365,share of draws below 0.90: 1.00
+coverage interval (calibration + month blocks),Prosper B,2010,0.91373,0.89414,0.9251,share of draws below 0.90: 0.12
+coverage interval (calibration + month blocks),Prosper B,2011Q1,0.92582,0.8989,0.95192,share of draws below 0.90: 0.03
+coverage interval (calibration + month blocks),Prosper A,2009,0.94724,0.93931,0.95446,share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks),Prosper A,2010,0.95535,0.94519,0.96599,share of draws below 0.90: 0.00
+coverage interval (calibration + month blocks),Prosper A,2011Q1,0.97745,0.97028,0.98532,share of draws below 0.90: 0.00

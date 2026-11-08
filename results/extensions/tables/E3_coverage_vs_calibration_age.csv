@@ -1,0 +1,4 @@
+portfolio,design,months,slope_pts_per_year,ci_lo,ci_hi,first_6_months_mean_dev_pts,last_6_months_mean_dev_pts
+Lending Club,-,36,-1.27488,-1.50479,-1.08318,1.66727,-0.98662
+Prosper,A,22,4.70199,1.82853,9.32214,1.69894,7.36986
+Prosper,B,15,1.48084,0.20282,3.42959,0.74305,2.26662

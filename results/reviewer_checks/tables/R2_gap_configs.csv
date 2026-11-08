@@ -1,0 +1,119 @@
+portfolio,design,model,test,g_cal,g_test,cov_err,d_gap
+Lending Club,cal 2012,F0|LGBM default,2013,0.47655,-1.60817,1.77842,-2.08473
+Lending Club,cal 2012,F0|LGBM default,2014,0.47655,0.42421,0.25207,-0.05234
+Lending Club,cal 2012,F0|LGBM default,2015,0.47655,2.64803,-1.00465,2.17148
+Lending Club,cal 2012,F0|LGBM regularised,2013,0.47423,-1.31329,1.67042,-1.78752
+Lending Club,cal 2012,F0|LGBM regularised,2014,0.47423,0.98796,-0.15355,0.51373
+Lending Club,cal 2012,F0|LGBM regularised,2015,0.47423,3.31214,-1.75671,2.83791
+Lending Club,cal 2012,F0|Logistic (L2),2013,0.26108,-1.78775,1.88957,-2.04883
+Lending Club,cal 2012,F0|Logistic (L2),2014,0.26108,0.66891,-0.10383,0.40783
+Lending Club,cal 2012,F0|Logistic (L2),2015,0.26108,3.20806,-1.69192,2.94697
+Lending Club,cal 2012,F1|LGBM default,2013,1.38952,-0.18665,1.04025,-1.57618
+Lending Club,cal 2012,F1|LGBM default,2014,1.38952,0.89207,0.21609,-0.49745
+Lending Club,cal 2012,F1|LGBM default,2015,1.38952,2.06746,-0.64775,0.67793
+Lending Club,cal 2012,F1|LGBM regularised,2013,1.2978,-0.31585,0.95532,-1.61365
+Lending Club,cal 2012,F1|LGBM regularised,2014,1.2978,0.8284,0.11141,-0.4694
+Lending Club,cal 2012,F1|LGBM regularised,2015,1.2978,2.07306,-0.89781,0.77526
+Lending Club,cal 2012,F1|Logistic (L2),2013,1.01387,-0.56596,0.90814,-1.57983
+Lending Club,cal 2012,F1|Logistic (L2),2014,1.01387,0.77525,-0.18102,-0.23862
+Lending Club,cal 2012,F1|Logistic (L2),2015,1.01387,2.14842,-1.25508,1.13455
+Lending Club,cal 2012,F3|LGBM default,2013,1.62997,-0.09823,1.15245,-1.7282
+Lending Club,cal 2012,F3|LGBM default,2014,1.62997,0.81641,0.55694,-0.81357
+Lending Club,cal 2012,F3|LGBM default,2015,1.62997,2.21537,-0.34352,0.5854
+Lending Club,cal 2012,F3|LGBM regularised,2013,1.64411,-0.10378,1.08744,-1.74789
+Lending Club,cal 2012,F3|LGBM regularised,2014,1.64411,0.9829,0.3103,-0.66121
+Lending Club,cal 2012,F3|LGBM regularised,2015,1.64411,2.47796,-0.70269,0.83385
+Lending Club,cal 2012,F3|Logistic (L2),2013,1.45067,-0.23199,1.12518,-1.68266
+Lending Club,cal 2012,F3|Logistic (L2),2014,1.45067,0.80804,0.23114,-0.64263
+Lending Club,cal 2012,F3|Logistic (L2),2015,1.45067,2.33389,-0.89175,0.88322
+Lending Club,cal 2012,F4|LGBM default,2013,1.55896,-0.47797,1.77842,-2.03693
+Lending Club,cal 2012,F4|LGBM default,2014,1.55896,1.24658,0.52946,-0.31238
+Lending Club,cal 2012,F4|LGBM default,2015,1.55896,3.36329,-0.78756,1.80433
+Lending Club,cal 2012,F4|LGBM regularised,2013,1.57585,-0.4818,1.84658,-2.05765
+Lending Club,cal 2012,F4|LGBM regularised,2014,1.57585,1.3083,0.51442,-0.26755
+Lending Club,cal 2012,F4|LGBM regularised,2015,1.57585,3.45475,-0.8944,1.87891
+Lending Club,cal 2012,F4|Logistic (L2),2013,0.83006,-1.33185,1.66413,-2.16191
+Lending Club,cal 2012,F4|Logistic (L2),2014,0.83006,0.68931,0.07085,-0.14075
+Lending Club,cal 2012,F4|Logistic (L2),2015,0.83006,3.22278,-1.50665,2.39272
+Lending Club,cal 2010,F0|LGBM default,2011,-2.92484,-1.336,-0.79684,1.58883
+Lending Club,cal 2010,F0|LGBM default,2012,-2.92484,-1.70074,-4.4522,1.2241
+Lending Club,cal 2010,F0|LGBM default,2013,-2.92484,-4.40061,-3.37199,-1.47577
+Lending Club,cal 2010,F0|LGBM default,2014,-2.92484,-1.8525,-4.65329,1.07233
+Lending Club,cal 2010,F0|LGBM default,2015,-2.92484,0.23738,-5.55412,3.16222
+Lending Club,cal 2010,F1|LGBM default,2011,-3.27929,-1.69924,-0.65652,1.58005
+Lending Club,cal 2010,F1|LGBM default,2012,-3.27929,-1.64772,-4.16205,1.63157
+Lending Club,cal 2010,F1|LGBM default,2013,-3.27929,-3.73735,-2.95991,-0.45806
+Lending Club,cal 2010,F1|LGBM default,2014,-3.27929,-1.46516,-4.33011,1.81413
+Lending Club,cal 2010,F1|LGBM default,2015,-3.27929,-0.11575,-5.44841,3.16355
+Lending Club,cal 2011,F0|LGBM default,2012,0.42941,1.23443,-2.79764,0.80502
+Lending Club,cal 2011,F0|LGBM default,2013,0.42941,-1.36702,-1.12498,-1.79644
+Lending Club,cal 2011,F0|LGBM default,2014,0.42941,0.53241,-2.35828,0.103
+Lending Club,cal 2011,F0|LGBM default,2015,0.42941,2.94407,-3.756,2.51466
+Lending Club,cal 2011,F1|LGBM default,2012,-0.07579,1.39424,-3.03743,1.47003
+Lending Club,cal 2011,F1|LGBM default,2013,-0.07579,-0.34129,-1.80023,-0.2655
+Lending Club,cal 2011,F1|LGBM default,2014,-0.07579,0.98368,-2.99484,1.05947
+Lending Club,cal 2011,F1|LGBM default,2015,-0.07579,2.29838,-4.0716,2.37417
+Lending Club,cal 2013,F0|LGBM default,2014,-1.34752,0.613,-1.43452,1.96052
+Lending Club,cal 2013,F0|LGBM default,2015,-1.34752,2.75595,-2.60765,4.10347
+Lending Club,cal 2013,F1|LGBM default,2014,-1.37697,-0.64569,-0.71356,0.73128
+Lending Club,cal 2013,F1|LGBM default,2015,-1.37697,0.46186,-1.59682,1.83882
+Prosper,design B,P0 with lender rate|LGBM default,2010,-10.38399,-10.8101,1.37346,-0.42611
+Prosper,design B,P0 with lender rate|LGBM default,2011,-10.38399,-11.51251,2.58182,-1.12852
+Prosper,design B,P0 with lender rate|LGBM regularised,2010,-10.4245,-10.99364,1.06983,-0.56914
+Prosper,design B,P0 with lender rate|LGBM regularised,2011,-10.4245,-11.26403,1.85455,-0.83953
+Prosper,design B,P0 with lender rate|Logistic (L2),2010,-8.9437,-10.75625,1.30202,-1.81255
+Prosper,design B,P0 with lender rate|Logistic (L2),2011,-8.9437,-9.74026,1.70909,-0.79656
+Prosper,design B,P1 no lender score|LGBM default,2010,-3.08455,-2.28786,-0.6269,0.79669
+Prosper,design B,P1 no lender score|LGBM default,2011,-3.08455,0.079,-2.21818,3.16355
+Prosper,design B,P1 no lender score|LGBM regularised,2010,-3.46164,-2.72027,-0.37685,0.74137
+Prosper,design B,P1 no lender score|LGBM regularised,2011,-3.46164,-0.30559,-1.49091,3.15605
+Prosper,design B,P1 no lender score|Logistic (L2),2010,-4.61763,-4.1703,-0.05537,0.44733
+Prosper,design B,P1 no lender score|Logistic (L2),2011,-4.61763,-1.80654,-1.27273,2.81109
+Prosper,design B,P3 applicant-only rich|LGBM default,2010,-2.90047,-1.96473,-0.60904,0.93573
+Prosper,design B,P3 applicant-only rich|LGBM default,2011,-2.90047,0.38315,-1.12727,3.28362
+Prosper,design B,P3 applicant-only rich|LGBM regularised,2010,-3.5691,-2.64577,-0.37685,0.92333
+Prosper,design B,P3 applicant-only rich|LGBM regularised,2011,-3.5691,0.00201,-1.12727,3.57111
+Prosper,design B,P3 applicant-only rich|Logistic (L2),2010,-2.37823,-1.80617,0.10538,0.57206
+Prosper,design B,P3 applicant-only rich|Logistic (L2),2011,-2.37823,0.20993,-0.83636,2.58816
+Prosper,design B,P4 everything|LGBM default,2010,-9.93164,-9.90197,0.94481,0.02967
+Prosper,design B,P4 everything|LGBM default,2011,-9.93164,-10.20305,2.07273,-0.27141
+Prosper,design B,P4 everything|LGBM regularised,2010,-9.87868,-10.07053,0.94481,-0.19185
+Prosper,design B,P4 everything|LGBM regularised,2011,-9.87868,-9.975,2.0,-0.09632
+Prosper,design B,P4 everything|Logistic (L2),2010,-6.90688,-8.96575,1.12341,-2.05887
+Prosper,design B,P4 everything|Logistic (L2),2011,-6.90688,-8.90402,2.36364,-1.99714
+Prosper,design A,P0 with lender rate|LGBM default,2009,-0.19884,-11.12305,4.72399,-10.92421
+Prosper,design A,P0 with lender rate|LGBM default,2010,-0.19884,-13.16974,5.53492,-12.9709
+Prosper,design A,P0 with lender rate|LGBM default,2011,-0.19884,-15.22287,7.74545,-15.02403
+Prosper,design A,P0 with lender rate|LGBM regularised,2009,-0.71316,-11.64346,4.57743,-10.9303
+Prosper,design A,P0 with lender rate|LGBM regularised,2010,-0.71316,-13.53633,5.78496,-12.82317
+Prosper,design A,P0 with lender rate|LGBM regularised,2011,-0.71316,-14.89373,8.03636,-14.18057
+Prosper,design A,P0 with lender rate|Logistic (L2),2009,-0.3297,-12.03022,4.43087,-11.70052
+Prosper,design A,P0 with lender rate|Logistic (L2),2010,-0.3297,-15.28768,4.94553,-14.95799
+Prosper,design A,P0 with lender rate|Logistic (L2),2011,-0.3297,-14.9158,7.45455,-14.5861
+Prosper,design A,P1 no lender score|LGBM default,2009,3.12338,-0.2457,-1.33366,-3.36908
+Prosper,design A,P1 no lender score|LGBM default,2010,3.12338,0.11353,-2.19861,-3.00984
+Prosper,design A,P1 no lender score|LGBM default,2011,3.12338,2.4056,-4.54545,-0.71778
+Prosper,design A,P1 no lender score|LGBM regularised,2009,3.18255,-0.74634,-2.01759,-3.92889
+Prosper,design A,P1 no lender score|LGBM regularised,2010,3.18255,-0.36149,-2.6987,-3.54404
+Prosper,design A,P1 no lender score|LGBM regularised,2011,3.18255,2.15569,-5.92727,-1.02687
+Prosper,design A,P1 no lender score|Logistic (L2),2009,1.09443,-4.12297,-1.91988,-5.2174
+Prosper,design A,P1 no lender score|Logistic (L2),2010,1.09443,-3.84469,-2.64512,-4.93912
+Prosper,design A,P1 no lender score|Logistic (L2),2011,1.09443,-1.76467,-5.63636,-2.85909
+Prosper,design A,P3 applicant-only rich|LGBM default,2009,2.34775,0.43424,-2.35955,-1.91351
+Prosper,design A,P3 applicant-only rich|LGBM default,2010,2.34775,0.94798,-3.10948,-1.39977
+Prosper,design A,P3 applicant-only rich|LGBM default,2011,2.34775,3.26379,-5.49091,0.91604
+Prosper,design A,P3 applicant-only rich|LGBM regularised,2009,1.9302,-1.28329,-2.35955,-3.21349
+Prosper,design A,P3 applicant-only rich|LGBM regularised,2010,1.9302,-0.51367,-3.19879,-2.44387
+Prosper,design A,P3 applicant-only rich|LGBM regularised,2011,1.9302,2.46467,-6.94545,0.53447
+Prosper,design A,P3 applicant-only rich|Logistic (L2),2009,1.36028,-0.78605,-2.75037,-2.14633
+Prosper,design A,P3 applicant-only rich|Logistic (L2),2010,1.36028,-0.36735,-3.1452,-1.72763
+Prosper,design A,P3 applicant-only rich|Logistic (L2),2011,1.36028,1.24797,-5.12727,-0.11232
+Prosper,design A,P4 everything|LGBM default,2009,-1.43959,-10.35478,4.04006,-8.91519
+Prosper,design A,P4 everything|LGBM default,2010,-1.43959,-12.03722,5.30273,-10.59763
+Prosper,design A,P4 everything|LGBM default,2011,-1.43959,-13.81718,7.30909,-12.37759
+Prosper,design A,P4 everything|LGBM regularised,2009,-1.47298,-11.41062,4.38202,-9.93764
+Prosper,design A,P4 everything|LGBM regularised,2010,-1.47298,-13.09021,5.73138,-11.61723
+Prosper,design A,P4 everything|LGBM regularised,2011,-1.47298,-13.75538,7.6,-12.2824
+Prosper,design A,P4 everything|Logistic (L2),2009,-2.0356,-10.05479,3.01417,-8.01919
+Prosper,design A,P4 everything|Logistic (L2),2010,-2.0356,-13.5784,4.30255,-11.54281
+Prosper,design A,P4 everything|Logistic (L2),2011,-2.0356,-15.03393,6.21818,-12.99833

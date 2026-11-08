@@ -1,0 +1,5 @@
+portfolio,n_obs,n_months,calib_years,slope_pts_per_year_with_month_FE,ci_lo,ci_hi,naive_slope_single_calibration
+Lending Club,156,48,"[2010, 2011, 2012, 2013]",-1.4331,-1.59999,-1.30888,-0.41092
+Lending Club (fixed model 2007-09),156,48,"[2010, 2011, 2012, 2013]",-1.46811,-1.62648,-1.35009,-0.41092
+Prosper,59,22,"[2007, 2008, 2009]",0.23235,-0.38947,0.68467,4.80147
+Prosper (fixed model 2006),59,22,"[2007, 2008, 2009]",1.29008,0.69043,1.73602,4.80147

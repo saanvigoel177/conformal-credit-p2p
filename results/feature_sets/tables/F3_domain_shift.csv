@@ -1,0 +1,6 @@
+feature_set,domain_AUC_2012_vs_2015,top_feature,top_feature_share
+F0 baseline (with int_rate),0.9882,int_rate,0.7256
+F1 no lender score,0.7758,dti,0.1893
+F2 + grade/sub_grade,0.9997,int_rate,0.4308
+"F3 applicant-only, rich",0.8213,pub_rec,0.1856
+F4 everything,0.9997,int_rate,0.431

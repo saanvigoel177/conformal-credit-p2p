@@ -1,0 +1,362 @@
+PROSPER REPLICATION (2026-11-07 13:35), failed sections: none
+
+## Data summary
+ year     N  default_rate  mean_rate  mean_fico  mean_dti  mean_amount  profit_per_loan  return_on_funded
+ 2006  5902        0.3939     0.1914   609.0201    0.1977    4765.2828        -297.2133           -0.0624
+ 2007 11460        0.3948     0.1766   653.8368    0.2697    7049.5450        -713.7919           -0.1013
+ 2008 11551        0.3297     0.1861   673.9152    0.2435    6022.0630        -221.5841           -0.0368
+ 2009  2047        0.1519     0.1929   714.7760    0.2278    4354.8588         516.0503            0.1185
+ 2010  5599        0.1670     0.2133   713.9222    0.2222    4715.1252         615.3726            0.1305
+ 2011  1375        0.2138     0.2252   716.8600    0.2190    6303.2887         588.3671            0.0933
+
+## Label lag
+outcome   count    mean     std  min  10%  25%  50%  75%  90%  max
+default 12197.0 18.1486  9.3232  4.0  7.0 10.0 16.0 25.0 32.0 51.0
+ repaid 25737.0 24.9887 11.8606  1.0  6.0 15.0 30.0 36.0 36.0 40.0
+
+## Model zoo
+design            feature_set            model  val_logloss  AUC_2010  gap_pp_2010  static_cov_2010  classcond_cov_default_2010  AUC_2011Q1  gap_pp_2011Q1  static_cov_2011Q1  classcond_cov_default_2011Q1  AUC_2009  gap_pp_2009  static_cov_2009  classcond_cov_default_2009
+     B    P0 with lender rate     LGBM default       0.5814    0.6711     -10.8101           0.9137                      0.9037      0.6949       -11.5125             0.9258                        0.9762       NaN          NaN              NaN                         NaN
+     B    P0 with lender rate LGBM regularised       0.5762    0.6749     -10.9936           0.9107                      0.9091      0.6909       -11.2640             0.9185                        0.9830       NaN          NaN              NaN                         NaN
+     B    P0 with lender rate    Logistic (L2)       0.5928    0.6672     -10.7562           0.9130                      0.9294      0.6673        -9.7402             0.9171                        0.9898       NaN          NaN              NaN                         NaN
+     B     P1 no lender score     LGBM default       0.5795    0.6512      -2.2879           0.8937                      0.9144      0.6473         0.0790             0.8778                        0.9422       NaN          NaN              NaN                         NaN
+     B     P1 no lender score LGBM regularised       0.5748    0.6534      -2.7203           0.8962                      0.9369      0.6497        -0.3056             0.8851                        0.9592       NaN          NaN              NaN                         NaN
+     B     P1 no lender score    Logistic (L2)       0.5851    0.6309      -4.1703           0.8994                      0.9198      0.5972        -1.8065             0.8873                        0.9592       NaN          NaN              NaN                         NaN
+     B P3 applicant-only rich     LGBM default       0.5725    0.6684      -1.9647           0.8939                      0.9155      0.6761         0.3832             0.8887                        0.9592       NaN          NaN              NaN                         NaN
+     B P3 applicant-only rich LGBM regularised       0.5704    0.6665      -2.6458           0.8962                      0.9230      0.6751         0.0020             0.8887                        0.9558       NaN          NaN              NaN                         NaN
+     B P3 applicant-only rich    Logistic (L2)       0.5861    0.6596      -1.8037           0.9011                      0.9251      0.6448         0.2083             0.8916                        0.9592       NaN          NaN              NaN                         NaN
+     B          P4 everything     LGBM default       0.5764    0.6795      -9.9020           0.9094                      0.8984      0.7132       -10.2030             0.9207                        0.9898       NaN          NaN              NaN                         NaN
+     B          P4 everything LGBM regularised       0.5733    0.6840     -10.0705           0.9094                      0.9027      0.7094        -9.9750             0.9200                        0.9864       NaN          NaN              NaN                         NaN
+     B          P4 everything    Logistic (L2)       0.5987    0.6835      -8.9565           0.9125                      0.9273      0.7002        -8.8886             0.9251                        0.9864       NaN          NaN              NaN                         NaN
+     A    P0 with lender rate     LGBM default       0.5799    0.6706     -13.1697           0.9553                      0.8535      0.6999       -15.2229             0.9775                        0.9694    0.6766     -11.1231           0.9472                      0.8071
+     A    P0 with lender rate LGBM regularised       0.5680    0.6785     -13.5363           0.9578                      0.8631      0.7037       -14.8937             0.9804                        0.9626    0.6730     -11.6435           0.9458                      0.8167
+     A    P0 with lender rate    Logistic (L2)       0.5760    0.6629     -15.2877           0.9495                      0.8449      0.6795       -14.9158             0.9745                        0.9694    0.6570     -12.0302           0.9443                      0.7781
+     A     P1 no lender score     LGBM default       0.5944    0.6475       0.1135           0.8780                      0.5551      0.6476         2.4056             0.8545                        0.7007    0.6615      -0.2457           0.8867                      0.5209
+     A     P1 no lender score LGBM regularised       0.5809    0.6527      -0.3615           0.8730                      0.5401      0.6460         2.1557             0.8407                        0.6599    0.6611      -0.7463           0.8798                      0.5016
+     A     P1 no lender score    Logistic (L2)       0.5917    0.6144      -3.8447           0.8735                      0.5422      0.5901        -1.7647             0.8436                        0.6599    0.6282      -4.1230           0.8808                      0.4920
+     A P3 applicant-only rich     LGBM default       0.5842    0.6619       0.9480           0.8689                      0.5283      0.6834         3.2638             0.8451                        0.6735    0.6628       0.4342           0.8764                      0.4662
+     A P3 applicant-only rich LGBM regularised       0.5747    0.6609      -0.5137           0.8680                      0.5390      0.6676         2.4647             0.8305                        0.6429    0.6574      -1.2833           0.8764                      0.4952
+     A P3 applicant-only rich    Logistic (L2)       0.6069    0.6336      -0.3674           0.8685                      0.5209      0.6257         1.2480             0.8487                        0.6463    0.6347      -0.7861           0.8725                      0.4823
+     A          P4 everything     LGBM default       0.5744    0.6848     -12.0372           0.9530                      0.8545      0.7243       -13.8172             0.9731                        0.9694    0.6690     -10.3548           0.9404                      0.8103
+     A          P4 everything LGBM regularised       0.5615    0.6848     -13.0902           0.9573                      0.8578      0.7164       -13.7554             0.9760                        0.9694    0.6722     -11.4106           0.9438                      0.8167
+     A          P4 everything    Logistic (L2)       0.6086    0.6754     -13.6062           0.9427                      0.8299      0.7028       -15.0827             0.9622                        0.9592    0.6606     -10.0705           0.9301                      0.7910
+
+## Validity
+design                                            pipeline            method        period     N  actual_default  mean_pred    cov  ci_lo  ci_hi  cov_default   size  share_review  share_reject_only
+     B                         baseline: P0 + LGBM default            static 2009 (calib.)  2047          0.1519     0.2558 0.9008 0.8871 0.9130       0.3794 1.2281        0.2281             0.0093
+     B                         baseline: P0 + LGBM default            static          2010  5599          0.1670     0.2751 0.9137 0.9061 0.9208       0.5123 1.3054        0.3054             0.0071
+     B                         baseline: P0 + LGBM default            static        2011Q1  1375          0.2138     0.3289 0.9258 0.9107 0.9385       0.6667 1.4480        0.4480             0.0044
+     B                         baseline: P0 + LGBM default class-conditional 2009 (calib.)  2047          0.1519     0.2558 0.9013 0.8876 0.9135       0.9035 1.6448        0.6448             0.1148
+     B                         baseline: P0 + LGBM default class-conditional          2010  5599          0.1670     0.2751 0.8796 0.8708 0.8879       0.9037 1.5997        0.5997             0.1504
+     B                         baseline: P0 + LGBM default class-conditional        2011Q1  1375          0.2138     0.3289 0.8524 0.8326 0.8701       0.9762 1.6342        0.6342             0.2225
+     B selected: P3 applicant-only rich + LGBM regularised            static 2009 (calib.)  2047          0.1519     0.1876 0.9008 0.8871 0.9130       0.3473 1.2110        0.2110             0.0000
+     B selected: P3 applicant-only rich + LGBM regularised            static          2010  5599          0.1670     0.1935 0.8962 0.8880 0.9039       0.3786 1.2275        0.2275             0.0000
+     B selected: P3 applicant-only rich + LGBM regularised            static        2011Q1  1375          0.2138     0.2138 0.8887 0.8710 0.9043       0.4796 1.3091        0.3091             0.0000
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional 2009 (calib.)  2047          0.1519     0.1876 0.9013 0.8876 0.9135       0.9035 1.6312        0.6312             0.1177
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional          2010  5599          0.1670     0.1935 0.9064 0.8985 0.9138       0.9230 1.6594        0.6594             0.1186
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional        2011Q1  1375          0.2138     0.2138 0.8953 0.8780 0.9104       0.9558 1.6953        0.6953             0.1498
+     A                         baseline: P0 + LGBM default            static 2008 (calib.) 11551          0.3297     0.3317 0.9001 0.8945 0.9054       0.7282 1.5071        0.5071             0.0340
+     A                         baseline: P0 + LGBM default            static          2009  2047          0.1519     0.2632 0.9472 0.9367 0.9561       0.6624 1.4270        0.4270             0.0039
+     A                         baseline: P0 + LGBM default            static          2010  5599          0.1670     0.2987 0.9553 0.9496 0.9605       0.7497 1.5344        0.5344             0.0050
+     A                         baseline: P0 + LGBM default            static        2011Q1  1375          0.2138     0.3660 0.9775 0.9682 0.9841       0.9014 1.6887        0.6887             0.0051
+     A                         baseline: P0 + LGBM default class-conditional 2008 (calib.) 11551          0.3297     0.3317 0.9003 0.8947 0.9056       0.9005 1.5946        0.5946             0.1589
+     A                         baseline: P0 + LGBM default class-conditional          2009  2047          0.1519     0.2632 0.9345 0.9230 0.9445       0.8071 1.5559        0.5559             0.0572
+     A                         baseline: P0 + LGBM default class-conditional          2010  5599          0.1670     0.2987 0.9211 0.9137 0.9278       0.8535 1.5985        0.5985             0.0806
+     A                         baseline: P0 + LGBM default class-conditional        2011Q1  1375          0.2138     0.3660 0.9207 0.9052 0.9339       0.9694 1.7076        0.7076             0.1200
+     A          selected: P4 everything + LGBM regularised            static 2008 (calib.) 11551          0.3297     0.3444 0.9001 0.8945 0.9054       0.7390 1.4915        0.4915             0.0479
+     A          selected: P4 everything + LGBM regularised            static          2009  2047          0.1519     0.2660 0.9438 0.9330 0.9530       0.6367 1.4206        0.4206             0.0029
+     A          selected: P4 everything + LGBM regularised            static          2010  5599          0.1670     0.2979 0.9573 0.9517 0.9623       0.7604 1.5258        0.5258             0.0038
+     A          selected: P4 everything + LGBM regularised            static        2011Q1  1375          0.2138     0.3514 0.9760 0.9665 0.9829       0.8912 1.6531        0.6531             0.0015
+     A          selected: P4 everything + LGBM regularised class-conditional 2008 (calib.) 11551          0.3297     0.3444 0.9003 0.8947 0.9056       0.9005 1.5842        0.5842             0.1615
+     A          selected: P4 everything + LGBM regularised class-conditional          2009  2047          0.1519     0.2660 0.9531 0.9431 0.9614       0.8167 1.5794        0.5794             0.0318
+     A          selected: P4 everything + LGBM regularised class-conditional          2010  5599          0.1670     0.2979 0.9484 0.9423 0.9539       0.8578 1.6315        0.6315             0.0448
+     A          selected: P4 everything + LGBM regularised class-conditional        2011Q1  1375          0.2138     0.3514 0.9731 0.9631 0.9804       0.9694 1.7644        0.7644             0.0458
+
+## Controls
+design                      control  mean_cov     sd  repeats
+     B within calibration year 2009    0.9005 0.0135       50
+     B      within test period 2010    0.9002 0.0085       50
+     B    within test period 2011Q1    0.9027 0.0177       50
+     A within calibration year 2008    0.8985 0.0057       50
+     A      within test period 2009    0.9012 0.0126       50
+     A      within test period 2010    0.9002 0.0079       50
+     A    within test period 2011Q1    0.8986 0.0149       50
+
+## Alpha
+design  alpha            method period    cov  cov_default  share_reject_only
+     B   0.05            static   2010 0.9573       0.7455             0.0002
+     B   0.05            static 2011Q1 0.9818       0.9150             0.0000
+     B   0.05 class-conditional   2010 0.9443       0.9583             0.0734
+     B   0.05 class-conditional 2011Q1 0.9360       0.9864             0.0953
+     B   0.10            static   2010 0.9137       0.5123             0.0071
+     B   0.10            static 2011Q1 0.9258       0.6667             0.0044
+     B   0.10 class-conditional   2010 0.8796       0.9037             0.1504
+     B   0.10 class-conditional 2011Q1 0.8524       0.9762             0.2225
+     B   0.20            static   2010 0.7805       0.0898             0.0448
+     B   0.20            static 2011Q1 0.7149       0.0850             0.0538
+     B   0.20 class-conditional   2010 0.7594       0.8364             0.2945
+     B   0.20 class-conditional 2011Q1 0.6989       0.9592             0.4291
+     A   0.05            static   2009 0.9634       0.7588             0.0000
+     A   0.05            static   2010 0.9704       0.8246             0.0004
+     A   0.05            static 2011Q1 0.9905       0.9558             0.0000
+     A   0.05 class-conditional   2009 0.9663       0.8650             0.0220
+     A   0.05 class-conditional   2010 0.9657       0.8952             0.0270
+     A   0.05 class-conditional 2011Q1 0.9782       0.9796             0.0349
+     A   0.10            static   2009 0.9472       0.6624             0.0039
+     A   0.10            static   2010 0.9553       0.7497             0.0050
+     A   0.10            static 2011Q1 0.9775       0.9014             0.0051
+     A   0.10 class-conditional   2009 0.9345       0.8071             0.0572
+     A   0.10 class-conditional   2010 0.9211       0.8535             0.0806
+     A   0.10 class-conditional 2011Q1 0.9207       0.9694             0.1200
+     A   0.20            static   2009 0.8911       0.4373             0.0362
+     A   0.20            static   2010 0.8939       0.5690             0.0505
+     A   0.20            static 2011Q1 0.9033       0.7347             0.0676
+     A   0.20 class-conditional   2009 0.8388       0.7267             0.1685
+     A   0.20 class-conditional   2010 0.7903       0.7914             0.2411
+     A   0.20 class-conditional 2011Q1 0.7585       0.9320             0.3469
+
+## Online methods (pooled)
+design                                            pipeline                          method              arrival period    cov  cov_default   size
+     B                         baseline: P0 + LGBM default       static (calibration year)                    - pooled 0.9161       0.5492 1.3335
+     B                         baseline: P0 + LGBM default                 ACI gamma=0.015 immediate (per loan) pooled 0.9002       0.4809 1.2833
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0002         uniform 6 mo pooled 0.9100       0.5191 1.3109
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0005         uniform 6 mo pooled 0.9039       0.4898 1.2896
+     B                         baseline: P0 + LGBM default            rolling recal (W=12)         uniform 6 mo pooled 0.9114       0.5248 1.3166
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0002        uniform 12 mo pooled 0.9150       0.5427 1.3291
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0005        uniform 12 mo pooled 0.9135       0.5354 1.3228
+     B                         baseline: P0 + LGBM default            rolling recal (W=12)        uniform 12 mo pooled 0.9118       0.5305 1.3163
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0002        exact arrival pooled 0.9141       0.5403 1.3264
+     B                         baseline: P0 + LGBM default                ACI gamma=0.0005        exact arrival pooled 0.9107       0.5232 1.3130
+     B                         baseline: P0 + LGBM default rolling recal, all known labels        exact arrival pooled 0.8935       0.4760 1.2687
+     B selected: P3 applicant-only rich + LGBM regularised       static (calibration year)                    - pooled 0.8948       0.4028 1.2436
+     B selected: P3 applicant-only rich + LGBM regularised                 ACI gamma=0.015 immediate (per loan) pooled 0.9001       0.4353 1.2773
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0002         uniform 6 mo pooled 0.8985       0.4239 1.2561
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0005         uniform 6 mo pooled 0.9001       0.4329 1.2631
+     B selected: P3 applicant-only rich + LGBM regularised            rolling recal (W=12)         uniform 6 mo pooled 0.8973       0.4174 1.2527
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0002        uniform 12 mo pooled 0.8950       0.4044 1.2453
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0005        uniform 12 mo pooled 0.8963       0.4117 1.2484
+     B selected: P3 applicant-only rich + LGBM regularised            rolling recal (W=12)        uniform 12 mo pooled 0.8945       0.4011 1.2408
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0002        exact arrival pooled 0.8952       0.4052 1.2416
+     B selected: P3 applicant-only rich + LGBM regularised                ACI gamma=0.0005        exact arrival pooled 0.8953       0.4060 1.2423
+     B selected: P3 applicant-only rich + LGBM regularised rolling recal, all known labels        exact arrival pooled 0.8840       0.3718 1.2172
+     A                         baseline: P0 + LGBM default       static (calibration year)                    - pooled 0.9569       0.7610 1.5335
+     A                         baseline: P0 + LGBM default                 ACI gamma=0.015 immediate (per loan) pooled 0.9007       0.5922 1.3286
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0002         uniform 6 mo pooled 0.9471       0.7227 1.4822
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0006         uniform 6 mo pooled 0.9192       0.6513 1.4008
+     A                         baseline: P0 + LGBM default            rolling recal (W=12)         uniform 6 mo pooled 0.9180       0.6390 1.3848
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0002        uniform 12 mo pooled 0.9539       0.7500 1.5161
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0006        uniform 12 mo pooled 0.9451       0.7221 1.4839
+     A                         baseline: P0 + LGBM default            rolling recal (W=12)        uniform 12 mo pooled 0.9328       0.6909 1.4410
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0002        exact arrival pooled 0.9559       0.7558 1.5240
+     A                         baseline: P0 + LGBM default                ACI gamma=0.0006        exact arrival pooled 0.9513       0.7383 1.5047
+     A                         baseline: P0 + LGBM default rolling recal, all known labels        exact arrival pooled 0.9640       0.7961 1.5855
+     A          selected: P4 everything + LGBM regularised       static (calibration year)                    - pooled 0.9571       0.7604 1.5213
+     A          selected: P4 everything + LGBM regularised                 ACI gamma=0.015 immediate (per loan) pooled 0.9010       0.5429 1.2991
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0002         uniform 6 mo pooled 0.9501       0.7292 1.4828
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0006         uniform 6 mo pooled 0.9243       0.6331 1.3908
+     A          selected: P4 everything + LGBM regularised            rolling recal (W=12)         uniform 6 mo pooled 0.9176       0.6006 1.3603
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0002        uniform 12 mo pooled 0.9546       0.7474 1.5098
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0006        uniform 12 mo pooled 0.9483       0.7234 1.4824
+     A          selected: P4 everything + LGBM regularised            rolling recal (W=12)        uniform 12 mo pooled 0.9325       0.6597 1.4207
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0002        exact arrival pooled 0.9562       0.7552 1.5157
+     A          selected: P4 everything + LGBM regularised                ACI gamma=0.0006        exact arrival pooled 0.9538       0.7435 1.5033
+     A          selected: P4 everything + LGBM regularised rolling recal, all known labels        exact arrival pooled 0.9629       0.7870 1.5554
+
+## Label selection bias
+design snapshot  n_window  share_known  default_rate_known  eventual_default_rate
+     B Jan-2010     25449       0.4887              0.5199                 0.3421
+     B Jan-2011     19624       0.4372              0.4280                 0.2617
+     A Jan-2009     28913       0.3456              0.5086                 0.3686
+
+## Decisions
+design                                            pipeline                                                   policy           rule  share_approved  share_review  profit_per_applicant  gain_vs_approve_all  gain_ci_lo  gain_ci_hi  roi_on_approved  default_rate_approved
+     B                         baseline: P0 + LGBM default                                              Approve all         single          1.0000        0.0000              610.0482               0.0000      0.0000      0.0000           0.1213                 0.1762
+     B                         baseline: P0 + LGBM default p_hat cutoff <= 0.537 (tuned on calibration-year profit)         single          0.9640        0.0000              590.5914             -19.4568    -32.7073     -8.1209           0.1219                 0.1696
+     B                         baseline: P0 + LGBM default                     static conformal, alpha=0.17 (tuned) review->reject          0.9263        0.0013              567.1059             -42.9424    -60.4356    -27.3845           0.1219                 0.1632
+     B                         baseline: P0 + LGBM default                           Oracle: approve iff profitable         single          0.8603        0.0000              966.0525             356.0043    289.5958    423.9560           0.2210                 0.0432
+     B                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 review->reject          0.6599        0.3335              367.4440            -242.6042   -281.6830   -203.0131           0.1098                 0.1204
+     B                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 expert cost 0%          0.8988        0.3335              789.6659             179.6177    126.7508    238.3216           0.1740                 0.0884
+     B                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 expert cost 1%          0.8988        0.3335              773.2315             163.1833    112.7306    219.6121           0.1740                 0.0884
+     B                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 review->reject          0.2289        0.6065               84.9751            -525.0731   -583.9418   -462.5916           0.0656                 0.0608
+     B                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 expert cost 0%          0.7258        0.6065              695.5897              85.5414     35.5133    143.3360           0.1867                 0.0192
+     B                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 expert cost 1%          0.7258        0.6065              666.6042              56.5560      9.3019    112.8900           0.1867                 0.0192
+     B                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 review->reject          0.5796        0.4071              302.3535            -307.6947   -345.4197   -269.4918           0.1020                 0.1173
+     B                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 expert cost 0%          0.8834        0.4071              797.3343             187.2861    131.2037    250.0411           0.1781                 0.0769
+     B                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 expert cost 1%          0.8834        0.4071              777.3951             167.3468    113.6890    227.2877           0.1781                 0.0769
+     B selected: P3 applicant-only rich + LGBM regularised                                              Approve all         single          1.0000        0.0000              610.0482               0.0000      0.0000      0.0000           0.1213                 0.1762
+     B selected: P3 applicant-only rich + LGBM regularised p_hat cutoff <= 0.499 (tuned on calibration-year profit)         single          0.9944        0.0000              605.6820              -4.3662    -14.1190      2.5417           0.1213                 0.1748
+     B selected: P3 applicant-only rich + LGBM regularised                     static conformal, alpha=0.15 (tuned) review->reject          0.9920        0.0044              605.6125              -4.4357    -13.8884      1.6482           0.1215                 0.1748
+     B selected: P3 applicant-only rich + LGBM regularised                           Oracle: approve iff profitable         single          0.8603        0.0000              966.0525             356.0043    289.5958    423.9560           0.2210                 0.0432
+     B selected: P3 applicant-only rich + LGBM regularised                             static conformal, alpha=0.10 review->reject          0.7564        0.2436              442.1654            -167.8828   -198.6804   -139.2043           0.1156                 0.1391
+     B selected: P3 applicant-only rich + LGBM regularised                             static conformal, alpha=0.10 expert cost 0%          0.9290        0.2436              747.5491             137.5009    102.4181    174.5182           0.1594                 0.1133
+     B selected: P3 applicant-only rich + LGBM regularised                             static conformal, alpha=0.10 expert cost 1%          0.9290        0.2436              735.5224             125.4741     92.0597    160.6255           0.1594                 0.1133
+     B selected: P3 applicant-only rich + LGBM regularised                  class-conditional conformal, alpha=0.10 review->reject          0.2088        0.6665               88.9192            -521.1290   -576.1525   -464.3653           0.0815                 0.0584
+     B selected: P3 applicant-only rich + LGBM regularised                  class-conditional conformal, alpha=0.10 expert cost 0%          0.7524        0.6665              759.4272             149.3790     94.1358    206.3456           0.1968                 0.0162
+     B selected: P3 applicant-only rich + LGBM regularised                  class-conditional conformal, alpha=0.10 expert cost 1%          0.7524        0.6665              726.2892             116.2410     62.8020    171.2455           0.1968                 0.0162
+     B selected: P3 applicant-only rich + LGBM regularised                    bin-conditional conformal, alpha=0.10 review->reject          0.6911        0.3087              402.0908            -207.9575   -236.8207   -177.3891           0.1150                 0.1425
+     B selected: P3 applicant-only rich + LGBM regularised                    bin-conditional conformal, alpha=0.10 expert cost 0%          0.9223        0.3087              751.1951             141.1469    107.8681    179.3014           0.1611                 0.1068
+     B selected: P3 applicant-only rich + LGBM regularised                    bin-conditional conformal, alpha=0.10 expert cost 1%          0.9223        0.3087              735.8781             125.8299     93.9295    162.6385           0.1611                 0.1068
+     A                         baseline: P0 + LGBM default                                              Approve all         single          1.0000        0.0000              588.7187               0.0000      0.0000      0.0000           0.1208                 0.1707
+     A                         baseline: P0 + LGBM default p_hat cutoff <= 0.320 (tuned on calibration-year profit)         single          0.5104        0.0000              237.8053            -350.9133   -393.4430   -306.2655           0.0911                 0.0934
+     A                         baseline: P0 + LGBM default                     static conformal, alpha=0.12 (tuned) review->reject          0.5087        0.4814              236.2617            -352.4570   -395.5183   -306.9388           0.0908                 0.0930
+     A                         baseline: P0 + LGBM default                           Oracle: approve iff profitable         single          0.8645        0.0000              928.6802             339.9615    280.1768    394.1156           0.2184                 0.0428
+     A                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 review->reject          0.4617        0.5335              203.7187            -384.9999   -427.8568   -339.3022           0.0856                 0.0884
+     A                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 expert cost 0%          0.8678        0.5335              811.6012             222.8825    165.2913    277.1596           0.1894                 0.0470
+     A                         baseline: P0 + LGBM default                             static conformal, alpha=0.10 expert cost 1%          0.8678        0.5335              786.8927             198.1740    143.9774    249.7852           0.1894                 0.0470
+     A                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 review->reject          0.3133        0.6055              114.0854            -474.6332   -526.4940   -421.9331           0.0682                 0.0729
+     A                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 expert cost 0%          0.7990        0.6055              741.7501             153.0314    103.9569    204.6016           0.1876                 0.0286
+     A                         baseline: P0 + LGBM default                  class-conditional conformal, alpha=0.10 expert cost 1%          0.7990        0.6055              713.9299             125.2113     79.5837    174.8329           0.1876                 0.0286
+     A                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 review->reject          0.4554        0.5310              209.7075            -379.0112   -423.8994   -333.3075           0.0906                 0.0986
+     A                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 expert cost 0%          0.8665        0.5310              792.0588             203.3401    148.8881    256.1121           0.1852                 0.0518
+     A                         baseline: P0 + LGBM default                    bin-conditional conformal, alpha=0.10 expert cost 1%          0.8665        0.5310              767.1085             178.3898    127.1319    228.8372           0.1852                 0.0518
+     A          selected: P4 everything + LGBM regularised                                              Approve all         single          1.0000        0.0000              588.7187               0.0000      0.0000      0.0000           0.1208                 0.1707
+     A          selected: P4 everything + LGBM regularised p_hat cutoff <= 0.314 (tuned on calibration-year profit)         single          0.4878        0.0000              232.5437            -356.1750   -401.3169   -312.5338           0.0879                 0.0884
+     A          selected: P4 everything + LGBM regularised                     static conformal, alpha=0.57 (tuned) review->reject          0.4913        0.5049              236.2967            -352.4220   -396.4902   -308.9488           0.0887                 0.0884
+     A          selected: P4 everything + LGBM regularised                           Oracle: approve iff profitable         single          0.8645        0.0000              928.6802             339.9615    280.1768    394.1156           0.2184                 0.0428
+     A          selected: P4 everything + LGBM regularised                             static conformal, alpha=0.10 review->reject          0.4754        0.5213              225.3140            -363.4047   -406.8427   -320.8107           0.0873                 0.0860
+     A          selected: P4 everything + LGBM regularised                             static conformal, alpha=0.10 expert cost 0%          0.8682        0.5213              803.2398             214.5211    159.3068    270.1623           0.1864                 0.0471
+     A          selected: P4 everything + LGBM regularised                             static conformal, alpha=0.10 expert cost 1%          0.8682        0.5213              780.4809             191.7622    139.8358    244.7517           0.1864                 0.0471
+     A          selected: P4 everything + LGBM regularised                  class-conditional conformal, alpha=0.10 review->reject          0.3180        0.6400              128.1811            -460.5376   -509.8307   -410.0605           0.0717                 0.0694
+     A          selected: P4 everything + LGBM regularised                  class-conditional conformal, alpha=0.10 expert cost 0%          0.8266        0.6400              798.2519             209.5332    150.1245    270.6112           0.1940                 0.0267
+     A          selected: P4 everything + LGBM regularised                  class-conditional conformal, alpha=0.10 expert cost 1%          0.8266        0.6400              769.2793             180.5606    125.0782    238.7680           0.1940                 0.0267
+     A          selected: P4 everything + LGBM regularised                    bin-conditional conformal, alpha=0.10 review->reject          0.4741        0.5203              237.7086            -351.0101   -397.4603   -304.5460           0.0956                 0.1054
+     A          selected: P4 everything + LGBM regularised                    bin-conditional conformal, alpha=0.10 expert cost 0%          0.8756        0.5203              791.7720             203.0533    150.3765    260.0376           0.1829                 0.0571
+     A          selected: P4 everything + LGBM regularised                    bin-conditional conformal, alpha=0.10 expert cost 1%          0.8756        0.5203              768.1598             179.4411    129.2121    233.3503           0.1829                 0.0571
+
+## Frontier
+design                        ranker  share_approved  profit_per_applicant  gain_vs_approve_all  gain_ci_lo  gain_ci_hi  default_rate_approved
+     B       default prob (baseline)            0.95              578.9429             -31.1053    -45.2766    -17.7790                 0.1674
+     B       default prob (baseline)            0.90              554.8531             -55.1951    -72.3878    -38.0817                 0.1585
+     B       default prob (baseline)            0.80              483.5288            -126.5194   -156.2427    -94.4858                 0.1434
+     B       default prob (selected)            0.95              581.4234             -28.6248    -40.0248    -15.0915                 0.1672
+     B       default prob (selected)            0.90              550.2387             -59.8095    -74.6060    -46.1473                 0.1590
+     B       default prob (selected)            0.80              475.1792            -134.8690   -158.4824   -113.3665                 0.1463
+     B           expected return, P0            0.95              582.0148             -28.0334    -39.8023    -14.4367                 0.1682
+     B           expected return, P0            0.90              550.4289             -59.6193    -79.6730    -36.3871                 0.1628
+     B           expected return, P0            0.80              470.2564            -139.7919   -166.9306   -114.3550                 0.1572
+     B           expected return, P3            0.95              587.1373             -22.9109    -35.2457     -9.7687                 0.1682
+     B           expected return, P3            0.90              561.5688             -48.4794    -66.0684    -31.2491                 0.1630
+     B           expected return, P3            0.80              502.9563            -107.0919   -127.6758    -86.3617                 0.1520
+     B  lender's rate (lower=better)            0.95              575.3751             -34.6731    -59.3764    -12.2727                 0.1719
+     B  lender's rate (lower=better)            0.90              538.4545             -71.5937    -92.2215    -50.2185                 0.1639
+     B  lender's rate (lower=better)            0.80              475.0309            -135.0173   -170.2238   -102.5157                 0.1472
+     B lender's grade (lower=better)            0.95              581.1524             -28.8958    -58.8991     -6.9280                 0.1743
+     B lender's grade (lower=better)            0.90              549.8614             -60.1868    -97.2263    -26.5038                 0.1708
+     B lender's grade (lower=better)            0.80              488.0148            -122.0334   -158.7910    -94.5927                 0.1534
+     B              hindsight oracle            0.95              853.7794             243.7312    180.3690    308.8687                 0.1328
+     B              hindsight oracle            0.90              943.3883             333.3401    265.1990    402.4173                 0.0848
+     B              hindsight oracle            0.80              962.1202             352.0720    285.0494    420.6238                 0.0400
+     A       default prob (baseline)            0.95              557.1331             -31.5855    -43.3464    -19.9789                 0.1614
+     A       default prob (baseline)            0.90              529.1481             -59.5706    -80.1913    -38.1836                 0.1533
+     A       default prob (baseline)            0.80              442.2681            -146.4506   -177.1369   -116.5719                 0.1393
+     A       default prob (selected)            0.95              576.4437             -12.2750    -25.7633      2.6161                 0.1585
+     A       default prob (selected)            0.90              542.2523             -46.4664    -63.1552    -27.6807                 0.1505
+     A       default prob (selected)            0.80              459.7621            -128.9565   -154.8663   -102.4046                 0.1358
+     A           expected return, P0            0.95              575.4972             -13.2215    -28.1688      1.8553                 0.1588
+     A           expected return, P0            0.90              539.8922             -48.8265    -66.6572    -29.4470                 0.1513
+     A           expected return, P0            0.80              454.4774            -134.2413   -159.9370   -107.0184                 0.1390
+     A           expected return, P3            0.95              570.1254             -18.5933    -31.9986     -4.0425                 0.1636
+     A           expected return, P3            0.90              548.2658             -40.4529    -58.5079    -23.1532                 0.1572
+     A           expected return, P3            0.80              502.0414             -86.6773   -107.7911    -62.6145                 0.1440
+     A  lender's rate (lower=better)            0.95              553.7381             -34.9806    -54.2560    -15.2816                 0.1652
+     A  lender's rate (lower=better)            0.90              520.4769             -68.2418    -83.9234    -52.0044                 0.1584
+     A  lender's rate (lower=better)            0.80              453.7560            -134.9626   -162.5113   -108.0968                 0.1415
+     A lender's grade (lower=better)            0.95              560.5750             -28.1436    -54.3923     -8.7615                 0.1688
+     A lender's grade (lower=better)            0.90              526.8015             -61.9171    -91.2383    -32.5149                 0.1647
+     A lender's grade (lower=better)            0.80              467.4870            -121.2317   -160.2067    -86.7217                 0.1491
+     A              hindsight oracle            0.95              830.4111             241.6924    183.9377    294.7938                 0.1271
+     A              hindsight oracle            0.90              911.8102             323.0915    262.5569    377.9237                 0.0786
+     A              hindsight oracle            0.80              924.8239             336.1052    276.0682    390.3107                 0.0412
+
+## Reviewer breakeven
+design                                            pipeline            policy  review_cost  share_review  breakeven_accuracy  ci_lo  ci_hi
+     B                         baseline: P0 + LGBM default            static         0.00        0.3335              0.7042 0.6551 0.7492
+     B                         baseline: P0 + LGBM default            static         0.01        0.3335              0.7313 0.6821 0.7766
+     B                         baseline: P0 + LGBM default class-conditional         0.00        0.6065              0.8922 0.8271 0.9482
+     B                         baseline: P0 + LGBM default class-conditional         0.01        0.6065              0.9288 0.8626 0.9862
+     B                         baseline: P0 + LGBM default   bin-conditional         0.00        0.4071              0.7296 0.6773 0.7784
+     B                         baseline: P0 + LGBM default   bin-conditional         0.01        0.4071              0.7584 0.7053 0.8081
+     B selected: P3 applicant-only rich + LGBM regularised            static         0.00        0.2436              0.6895 0.6464 0.7303
+     B selected: P3 applicant-only rich + LGBM regularised            static         0.01        0.2436              0.7167 0.6734 0.7579
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional         0.00        0.6665              0.8332 0.7815 0.8858
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional         0.01        0.6665              0.8702 0.8178 0.9241
+     B selected: P3 applicant-only rich + LGBM regularised   bin-conditional         0.00        0.3087              0.7117 0.6663 0.7537
+     B selected: P3 applicant-only rich + LGBM regularised   bin-conditional         0.01        0.3087              0.7430 0.6968 0.7861
+     A                         baseline: P0 + LGBM default            static         0.00        0.5335              0.7320 0.6991 0.7646
+     A                         baseline: P0 + LGBM default            static         0.01        0.5335              0.7617 0.7286 0.7948
+     A                         baseline: P0 + LGBM default class-conditional         0.00        0.6055              0.8138 0.7713 0.8561
+     A                         baseline: P0 + LGBM default class-conditional         0.01        0.6055              0.8476 0.8053 0.8906
+     A                         baseline: P0 + LGBM default   bin-conditional         0.00        0.5310              0.7440 0.7089 0.7792
+     A                         baseline: P0 + LGBM default   bin-conditional         0.01        0.5310              0.7754 0.7398 0.8108
+     A          selected: P4 everything + LGBM regularised            static         0.00        0.5213              0.7298 0.6948 0.7627
+     A          selected: P4 everything + LGBM regularised            static         0.01        0.5213              0.7584 0.7234 0.7917
+     A          selected: P4 everything + LGBM regularised class-conditional         0.00        0.6400              0.7645 0.7261 0.8041
+     A          selected: P4 everything + LGBM regularised class-conditional         0.01        0.6400              0.7970 0.7581 0.8372
+     A          selected: P4 everything + LGBM regularised   bin-conditional         0.00        0.5203              0.7327 0.6955 0.7681
+     A          selected: P4 everything + LGBM regularised   bin-conditional         0.01        0.5203              0.7638 0.7263 0.7998
+
+## Deployment-realistic training
+design                                            pipeline                                                  variant  n_train  train_default  n_calib  calib_default  gap_pp_2010  static_cov_2010  static_cov_default_2010  gap_pp_2011Q1  static_cov_2011Q1  static_cov_default_2011Q1  gap_pp_2009  static_cov_2009  static_cov_default_2009
+     B                         baseline: P0 + LGBM default                    V0 all labels (as in the main design)    28913         0.3686     2047         0.1519     -10.8101           0.9137                   0.5123       -11.5125             0.9258                     0.6667          NaN              NaN                      NaN
+     B                         baseline: P0 + LGBM default V1 train on labels known at deployment, calibrate on all    17581         0.4859     2047         0.1519     -25.5271           0.8900                   0.8374       -28.5651             0.8836                     0.9490          NaN              NaN                      NaN
+     B                         baseline: P0 + LGBM default     V2 train and calibrate on labels known at deployment    17581         0.4859       59         0.0169     -25.5271           0.7494                   0.7861       -28.5651             0.6945                     0.9184          NaN              NaN                      NaN
+     B selected: P3 applicant-only rich + LGBM regularised                    V0 all labels (as in the main design)    28913         0.3686     2047         0.1519      -2.6458           0.8962                   0.3786         0.0020             0.8887                     0.4796          NaN              NaN                      NaN
+     B selected: P3 applicant-only rich + LGBM regularised V1 train on labels known at deployment, calibrate on all    17581         0.4859     2047         0.1519     -14.0819           0.9069                   0.5594       -13.9078             0.9135                     0.7211          NaN              NaN                      NaN
+     B selected: P3 applicant-only rich + LGBM regularised     V2 train and calibrate on labels known at deployment    17581         0.4859       59         0.0169     -14.0819           0.7476                   0.2353       -13.9078             0.6858                     0.2993          NaN              NaN                      NaN
+     A                         baseline: P0 + LGBM default                    V0 all labels (as in the main design)    17362         0.3945    11551         0.3297     -13.1697           0.9553                   0.7497       -15.2229             0.9775                     0.9014     -11.1231           0.9472                   0.6624
+     A                         baseline: P0 + LGBM default V1 train on labels known at deployment, calibrate on all     8338         0.5245    11551         0.3297     -21.8415           0.9250                   0.8182       -27.3828             0.9345                     0.9558     -17.3411           0.9321                   0.7299
+     A                         baseline: P0 + LGBM default     V2 train and calibrate on labels known at deployment     8338         0.5245     1107         0.3225     -21.8415           0.8891                   0.7936       -27.3828             0.8945                     0.9456     -17.3411           0.9091                   0.7010
+     A          selected: P4 everything + LGBM regularised                    V0 all labels (as in the main design)    17362         0.3945    11551         0.3297     -13.0902           0.9573                   0.7604       -13.7554             0.9760                     0.8912     -11.4106           0.9438                   0.6367
+     A          selected: P4 everything + LGBM regularised V1 train on labels known at deployment, calibrate on all     8338         0.5245    11551         0.3297     -21.5985           0.9391                   0.8353       -26.2895             0.9389                     0.9660     -17.6693           0.9482                   0.7749
+     A          selected: P4 everything + LGBM regularised     V2 train and calibrate on labels known at deployment     8338         0.5245     1107         0.3225     -21.5985           0.9086                   0.8150       -26.2895             0.8931                     0.9388     -17.6693           0.9262                   0.7395
+
+## Ties and A1
+design                                            pipeline        period     N  distinct_p  distinct_share  max_p  share_p_above_half  q_hat  tie_mass_at_q   eps0
+     B                         baseline: P0 + LGBM default 2009 (calib.)  2047        2045          0.9990 0.8072              0.0542 0.6180         0.0005 0.0058
+     B                         baseline: P0 + LGBM default          test  6974        6969          0.9993 0.7483              0.0727 0.6180         0.0000 0.0054
+     B selected: P3 applicant-only rich + LGBM regularised 2009 (calib.)  2047        2047          1.0000 0.6830              0.0103 0.7383         0.0005 0.0000
+     B selected: P3 applicant-only rich + LGBM regularised          test  6974        6973          0.9999 0.7176              0.0056 0.7383         0.0000 0.0000
+     A                         baseline: P0 + LGBM default 2008 (calib.) 11551       11545          0.9995 0.9372              0.2355 0.7136         0.0002 0.0154
+     A                         baseline: P0 + LGBM default          test  9021        9011          0.9989 0.8535              0.1765 0.7136         0.0000 0.0028
+     A          selected: P4 everything + LGBM regularised 2008 (calib.) 11551       11551          1.0000 0.9199              0.2576 0.6964         0.0001 0.0207
+     A          selected: P4 everything + LGBM regularised          test  9021        9021          1.0000 0.8135              0.1388 0.6964         0.0000 0.0024
+
+## Proposition 5 exact cut
+design                                            pipeline              sets  approved_share  identical_sets  gain_conformal  gain_ranking_same_share  diff_dollars  max_p_approved  min_p_not_approved  ties_at_cut
+     B                         baseline: P0 + LGBM default            static          0.6599            True       -242.6042                -242.6042           0.0          0.3820              0.3822            1
+     B                         baseline: P0 + LGBM default class-conditional          0.2289            True       -525.0731                -525.0731           0.0          0.1303              0.1307            1
+     B selected: P3 applicant-only rich + LGBM regularised            static          0.7564            True       -167.8828                -167.8828           0.0          0.2615              0.2617            1
+     B selected: P3 applicant-only rich + LGBM regularised class-conditional          0.2088            True       -521.1290                -521.1290           0.0          0.1113              0.1114            1
+     A                         baseline: P0 + LGBM default            static          0.4617            True       -384.9999                -384.9999           0.0          0.2864              0.2866            1
+     A                         baseline: P0 + LGBM default class-conditional          0.3133            True       -474.6332                -474.6332           0.0          0.1671              0.1672            1
+     A          selected: P4 everything + LGBM regularised            static          0.4754            True       -363.4047                -363.4047           0.0          0.3035              0.3036            1
+     A          selected: P4 everything + LGBM regularised class-conditional          0.3180            True       -460.5376                -460.5376           0.0          0.1825              0.1827            1
+
+## Proposition 4 random halves
+design        period     N  jitter  distinct_p  mean_cov     sd  predicted_sd  ratio  ratio_se
+     B 2009 (calib.)  2047   False        2045    0.9003 0.0131        0.0132 0.9893    0.0224
+     B 2009 (calib.)  2047    True        2045    0.9003 0.0131        0.0132 0.9893    0.0224
+     B          2010  5599   False        5596    0.9003 0.0081        0.0080 1.0084    0.0224
+     B          2010  5599    True        5596    0.9003 0.0081        0.0080 1.0084    0.0224
+     B        2011Q1  1375   False        1375    0.9007 0.0164        0.0161 1.0187    0.0224
+     B        2011Q1  1375    True        1375    0.9007 0.0164        0.0161 1.0187    0.0224
+     A 2008 (calib.) 11551   False       11545    0.9003 0.0055        0.0056 0.9858    0.0224
+     A 2008 (calib.) 11551    True       11545    0.9003 0.0055        0.0056 0.9858    0.0224
+     A          2009  2047   False        2043    0.9005 0.0130        0.0132 0.9784    0.0224
+     A          2009  2047    True        2043    0.9005 0.0130        0.0132 0.9784    0.0224
+     A          2010  5599   False        5595    0.9004 0.0081        0.0080 1.0109    0.0224
+     A          2010  5599    True        5595    0.9004 0.0081        0.0080 1.0109    0.0224
+     A        2011Q1  1375   False        1375    0.9013 0.0158        0.0161 0.9804    0.0224
+     A        2011Q1  1375    True        1375    0.9013 0.0158        0.0161 0.9804    0.0224
+
+## kappa
+design                         period  n_cal  n_test  kappa_at_alpha  kappa_at_alpha_se  alpha_bar  kappa_at_alpha_bar  kappa_at_alpha_bar_se
+     B calib. random half (benchmark)   1023    1024          1.0388             0.2511     0.0840              1.3605                 0.2999
+     B                           2010   2047    5599          1.0063             0.1570     0.1080              1.1024                 0.1702
+     B                         2011Q1   2047    1375          1.9358             0.2987     0.1120              1.9437                 0.3260
+     B                    pooled test   2047    6974          1.1896             0.1670     0.1090              1.2840                 0.1844
+     A calib. random half (benchmark)   5775    5776          0.8414             0.0802     0.1090              0.8451                 0.1001
+     A                           2009  11551    2047          0.4876             0.0925     0.1835              0.6202                 0.0989
+     A                           2010  11551    5599          0.4176             0.0529     0.1945              0.8466                 0.0907
+     A                         2011Q1  11551    1375          0.3394             0.0883     0.2035              1.4567                 0.1816
+     A                    pooled test  11551    9021          0.4216             0.0478     0.1950              0.8579                 0.0753

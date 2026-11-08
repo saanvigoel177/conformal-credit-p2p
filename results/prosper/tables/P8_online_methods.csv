@@ -1,0 +1,155 @@
+design,pipeline,method,arrival,period,cov,cov_default,size
+B,baseline: P0 + LGBM default,static (calibration year),-,2010,0.91373,0.5123,1.30541
+B,baseline: P0 + LGBM default,static (calibration year),-,2011Q1,0.92582,0.66667,1.448
+B,baseline: P0 + LGBM default,static (calibration year),-,pooled,0.91612,0.54923,1.33352
+B,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),2010,0.90034,0.45241,1.26273
+B,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),2011Q1,0.89964,0.57143,1.36727
+B,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),pooled,0.9002,0.48088,1.28334
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,2010,0.90927,0.49091,1.29005
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,2011Q1,0.91273,0.60884,1.39564
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,pooled,0.90995,0.51912,1.31087
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 6 mo,2010,0.90588,0.47166,1.27433
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 6 mo,2011Q1,0.896,0.54762,1.352
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 6 mo,pooled,0.90393,0.48983,1.28965
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,2010,0.91016,0.49305,1.29452
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,2011Q1,0.91636,0.62585,1.40655
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,pooled,0.91139,0.52482,1.3166
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,2010,0.91373,0.5123,1.30541
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,2011Q1,0.92,0.63946,1.42545
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,pooled,0.91497,0.54272,1.32908
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 12 mo,2010,0.91373,0.5123,1.30541
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 12 mo,2011Q1,0.91273,0.60884,1.39345
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,uniform 12 mo,pooled,0.91354,0.53539,1.32277
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,2010,0.91177,0.50588,1.30113
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,2011Q1,0.912,0.60884,1.37818
+B,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,pooled,0.91182,0.53051,1.31632
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,2010,0.91177,0.50374,1.29934
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,2011Q1,0.92364,0.65646,1.43636
+B,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,pooled,0.91411,0.54028,1.32636
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,exact arrival,2010,0.90873,0.4877,1.28684
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,exact arrival,2011Q1,0.91855,0.63605,1.41964
+B,baseline: P0 + LGBM default,ACI gamma=0.0005,exact arrival,pooled,0.91067,0.52319,1.31302
+B,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,2010,0.87926,0.38289,1.20557
+B,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,2011Q1,0.95127,0.77211,1.52582
+B,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,pooled,0.89346,0.476,1.26871
+B,selected: P3 applicant-only rich + LGBM regularised,static (calibration year),-,2010,0.89623,0.37861,1.22754
+B,selected: P3 applicant-only rich + LGBM regularised,static (calibration year),-,2011Q1,0.88873,0.47959,1.30909
+B,selected: P3 applicant-only rich + LGBM regularised,static (calibration year),-,pooled,0.89475,0.40277,1.24362
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.015,immediate (per loan),2010,0.89998,0.40428,1.26005
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.015,immediate (per loan),2011Q1,0.90036,0.53401,1.34764
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.015,immediate (per loan),pooled,0.90006,0.43531,1.27732
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,2010,0.89802,0.3893,1.23451
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,2011Q1,0.90036,0.53401,1.344
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,pooled,0.89848,0.42392,1.25609
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 6 mo,2010,0.8998,0.4,1.24129
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 6 mo,2011Q1,0.90109,0.53741,1.352
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 6 mo,pooled,0.90006,0.43287,1.26312
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 6 mo,2010,0.89712,0.38396,1.23343
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 6 mo,2011Q1,0.89818,0.52381,1.33091
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 6 mo,pooled,0.89733,0.41741,1.25265
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,2010,0.89623,0.37861,1.22754
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,2011Q1,0.89018,0.48639,1.31782
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,pooled,0.89504,0.40439,1.24534
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 12 mo,2010,0.89623,0.37861,1.22754
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 12 mo,2011Q1,0.89673,0.51701,1.33309
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,uniform 12 mo,pooled,0.89633,0.41172,1.24835
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 12 mo,2010,0.89409,0.36578,1.21861
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 12 mo,2011Q1,0.896,0.51361,1.33091
+B,selected: P3 applicant-only rich + LGBM regularised,rolling recal (W=12),uniform 12 mo,pooled,0.89447,0.40114,1.24075
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,exact arrival,2010,0.89534,0.37326,1.22165
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,exact arrival,2011Q1,0.89455,0.5068,1.32291
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0002,exact arrival,pooled,0.89518,0.40521,1.24161
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,exact arrival,2010,0.89445,0.36791,1.21932
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,exact arrival,2011Q1,0.89891,0.52721,1.336
+B,selected: P3 applicant-only rich + LGBM regularised,ACI gamma=0.0005,exact arrival,pooled,0.89533,0.40602,1.24233
+B,selected: P3 applicant-only rich + LGBM regularised,"rolling recal, all known labels",exact arrival,2010,0.87391,0.28449,1.16378
+B,selected: P3 applicant-only rich + LGBM regularised,"rolling recal, all known labels",exact arrival,2011Q1,0.92509,0.64966,1.43491
+B,selected: P3 applicant-only rich + LGBM regularised,"rolling recal, all known labels",exact arrival,pooled,0.884,0.37185,1.21724
+A,baseline: P0 + LGBM default,static (calibration year),-,2009,0.94724,0.66238,1.42697
+A,baseline: P0 + LGBM default,static (calibration year),-,2010,0.95535,0.74973,1.53438
+A,baseline: P0 + LGBM default,static (calibration year),-,2011Q1,0.97745,0.90136,1.68873
+A,baseline: P0 + LGBM default,static (calibration year),-,pooled,0.95688,0.76104,1.53353
+A,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),2009,0.90376,0.48553,1.2638
+A,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),2010,0.89998,0.58503,1.32738
+A,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),2011Q1,0.89891,0.72789,1.42982
+A,baseline: P0 + LGBM default,ACI gamma=0.015,immediate (per loan),pooled,0.90068,0.59221,1.32857
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,2009,0.94724,0.66238,1.42745
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,2010,0.94517,0.70802,1.47901
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,2011Q1,0.95491,0.83333,1.57673
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 6 mo,pooled,0.94712,0.72273,1.48221
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 6 mo,2009,0.94773,0.66559,1.42892
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 6 mo,2010,0.91695,0.63102,1.39275
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 6 mo,2011Q1,0.88582,0.70068,1.392
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 6 mo,pooled,0.91919,0.6513,1.40084
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,2009,0.94089,0.63344,1.39277
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,2010,0.90873,0.6,1.35756
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,2011Q1,0.92145,0.76871,1.48364
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 6 mo,pooled,0.91797,0.63896,1.38477
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,2009,0.94724,0.66238,1.42697
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,2010,0.95303,0.74011,1.5217
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,2011Q1,0.96727,0.87415,1.62618
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,uniform 12 mo,pooled,0.95389,0.75,1.51613
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 12 mo,2009,0.94724,0.66238,1.42697
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 12 mo,2010,0.94856,0.72299,1.49991
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 12 mo,2011Q1,0.928,0.78231,1.50327
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,uniform 12 mo,pooled,0.94513,0.72208,1.48387
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,2009,0.94089,0.63344,1.39472
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,2010,0.93017,0.67914,1.43954
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,2011Q1,0.93164,0.78912,1.51564
+A,baseline: P0 + LGBM default,rolling recal (W=12),uniform 12 mo,pooled,0.93282,0.69091,1.44097
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,2009,0.94675,0.66238,1.42648
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,2010,0.95428,0.74332,1.52277
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,2011Q1,0.976,0.89456,1.67418
+A,baseline: P0 + LGBM default,ACI gamma=0.0002,exact arrival,pooled,0.95588,0.75584,1.524
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,exact arrival,2009,0.94675,0.66238,1.42257
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,exact arrival,2010,0.9491,0.72086,1.5033
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,exact arrival,2011Q1,0.96727,0.87415,1.63273
+A,baseline: P0 + LGBM default,ACI gamma=0.0006,exact arrival,pooled,0.95134,0.73831,1.50471
+A,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,2009,0.95652,0.72026,1.47386
+A,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,2010,0.96249,0.78396,1.58975
+A,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,2011Q1,0.98109,0.91497,1.73455
+A,baseline: P0 + LGBM default,"rolling recal, all known labels",exact arrival,pooled,0.96397,0.7961,1.58552
+A,selected: P4 everything + LGBM regularised,static (calibration year),-,2009,0.94382,0.63666,1.42062
+A,selected: P4 everything + LGBM regularised,static (calibration year),-,2010,0.95731,0.76043,1.52581
+A,selected: P4 everything + LGBM regularised,static (calibration year),-,2011Q1,0.976,0.89116,1.65309
+A,selected: P4 everything + LGBM regularised,static (calibration year),-,pooled,0.9571,0.76039,1.52134
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.015,immediate (per loan),2009,0.90425,0.44051,1.24768
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.015,immediate (per loan),2010,0.89998,0.54439,1.30059
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.015,immediate (per loan),2011Q1,0.90036,0.64626,1.36945
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.015,immediate (per loan),pooled,0.90101,0.54286,1.29908
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,2009,0.94382,0.63666,1.4211
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,2010,0.95071,0.73155,1.48705
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,2011Q1,0.95709,0.81973,1.55709
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 6 mo,pooled,0.95012,0.72922,1.48276
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 6 mo,2009,0.94382,0.63666,1.42159
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 6 mo,2010,0.92749,0.64064,1.39614
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 6 mo,2011Q1,0.88218,0.60544,1.32291
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 6 mo,pooled,0.92429,0.63312,1.39075
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 6 mo,2009,0.93454,0.58842,1.3874
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 6 mo,2010,0.90963,0.57005,1.3297
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 6 mo,2011Q1,0.92509,0.71088,1.44436
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 6 mo,pooled,0.91764,0.60065,1.36027
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,2009,0.94382,0.63666,1.42062
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,2010,0.95535,0.74866,1.51688
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,2011Q1,0.96727,0.86054,1.61382
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,uniform 12 mo,pooled,0.95455,0.7474,1.50981
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 12 mo,2009,0.94382,0.63666,1.42062
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 12 mo,2010,0.95249,0.74225,1.50009
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 12 mo,2011Q1,0.93818,0.7551,1.50255
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,uniform 12 mo,pooled,0.94834,0.72338,1.48243
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 12 mo,2009,0.936,0.59486,1.39179
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 12 mo,2010,0.93374,0.66845,1.42722
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 12 mo,2011Q1,0.92218,0.70068,1.43709
+A,selected: P4 everything + LGBM regularised,rolling recal (W=12),uniform 12 mo,pooled,0.93249,0.65974,1.42069
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,exact arrival,2009,0.94382,0.63666,1.42013
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,exact arrival,2010,0.95642,0.75508,1.51991
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,exact arrival,2011Q1,0.97382,0.88095,1.64073
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0002,exact arrival,pooled,0.95621,0.75519,1.51569
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,exact arrival,2009,0.94382,0.63666,1.41817
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,exact arrival,2010,0.95446,0.74439,1.50813
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,exact arrival,2011Q1,0.96582,0.85374,1.61018
+A,selected: P4 everything + LGBM regularised,ACI gamma=0.0006,exact arrival,pooled,0.95377,0.74351,1.50327
+A,selected: P4 everything + LGBM regularised,"rolling recal, all known labels",exact arrival,2009,0.95115,0.68167,1.45725
+A,selected: P4 everything + LGBM regularised,"rolling recal, all known labels",exact arrival,2010,0.96321,0.78503,1.56189
+A,selected: P4 everything + LGBM regularised,"rolling recal, all known labels",exact arrival,2011Q1,0.97891,0.90476,1.67491
+A,selected: P4 everything + LGBM regularised,"rolling recal, all known labels",exact arrival,pooled,0.96286,0.78701,1.55537

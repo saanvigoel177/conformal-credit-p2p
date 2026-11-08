@@ -1,0 +1,4 @@
+Year,AUC_domain_vs_calib_cv,top_feature,top_feature_share,ESS_calib,ESS_share,static_cov,cov_weighted_insample,cov_weighted_crossfit
+2013,0.7878,int_rate,0.4569,21762.8973,0.7572,0.921,0.9197,0.9197
+2014,0.8785,int_rate,0.5954,19003.5879,0.6612,0.9092,0.9083,0.9082
+2015,0.9293,int_rate,0.5219,16816.2154,0.5851,0.8924,0.8946,0.8945

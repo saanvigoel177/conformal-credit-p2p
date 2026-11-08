@@ -1,0 +1,17 @@
+Policy,Year,CostPerLoan
+"Static conformal, alpha=0.10",2013,737.48
+"Static conformal, alpha=0.10",2014,817.69
+"Static conformal, alpha=0.10",2015,967.8
+"Static conformal, alpha=0.10",All,840.99
+"Static conformal, alpha*=0.002 (tuned on 2012)",2013,433.09
+"Static conformal, alpha*=0.002 (tuned on 2012)",2014,452.46
+"Static conformal, alpha*=0.002 (tuned on 2012)",2015,504.71
+"Static conformal, alpha*=0.002 (tuned on 2012)",All,463.42
+"Mondrian conformal, alpha=0.10",2013,473.58
+"Mondrian conformal, alpha=0.10",2014,509.58
+"Mondrian conformal, alpha=0.10",2015,581.9
+"Mondrian conformal, alpha=0.10",All,521.69
+"Cost-optimal cutoffs [0.014, inf]",2013,433.68
+"Cost-optimal cutoffs [0.014, inf]",2014,453.27
+"Cost-optimal cutoffs [0.014, inf]",2015,502.08
+"Cost-optimal cutoffs [0.014, inf]",All,463.01

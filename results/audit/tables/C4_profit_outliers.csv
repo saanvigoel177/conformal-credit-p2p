@@ -1,0 +1,7 @@
+portfolio,profit_version,static_refer_to_reject_gain,worst10pct_out_gain,approve_all_profit
+Lending Club,raw,-119.46193,-75.04964,1055.85009
+Lending Club,winsorised 1/99,-123.66376,-77.96842,1090.3584
+Lending Club,trimmed 1/99 (dropped),-127.40287,-80.58143,1164.59738
+Prosper B,raw,-242.60424,-55.22424,610.04821
+Prosper B,winsorised 1/99,-238.86133,-53.6893,607.4358
+Prosper B,trimmed 1/99 (dropped),-229.24369,-49.13797,596.72785
