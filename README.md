@@ -35,6 +35,7 @@ results/
   final_analysis/               section G tables from Final_Analysis.ipynb (G1-G5)
   executed_notebooks/           executed copies of the notebooks, with their printed outputs
 paper_figures/                  Figure_1.png ... Figure_8.png, as in the manuscript
+supplement/                     Additional_file_2.docx: supplementary tables and notes of the paper
 ```
 
 Three tables (`P1_data_summary_by_year`, `P2_breakeven` and `P3_label_lag_by_outcome`) are written by several notebooks. They are kept once, in `results/prosper/tables/`.
@@ -75,12 +76,14 @@ The Lending Club extracts contain public loan-level data only. They keep the ter
 | Paper | Source |
 |---|---|
 | Table 1; grade mix (Section 3.1); Section 4.4 expected-return and frontier results | `Final_Analysis` (`F1`, `A1`, `A2`, `B1`-`B3`); `Feature_Set_Analysis` (`F5_grade_mix_by_year`) |
-| Tables 2-3; Table 4; uniform delays in Table 5; Table 8 | `Mega_Analysis` |
-| Realistic arrival in Table 5; Table 6; Table 9; Table 13 | `Final_Analysis` (`D1`-`D3`, `C1`, `E1`) |
-| Table 7 (DtACI, recency-weighted, label-shift weighted) | `Conformal_Prediction_Credit_Risk_RUN` (`19a_dtaci`, `19b_barber_weighted`, `15c_label_shift_conformal`) |
-| Sections 3.2 and 4.5; Tables 10-12; Prosper rows of Tables 4, 6, 9 and 13 | `Prosper_Replication` (`P1`-`P13`) |
+| Table 2; Table S1; Table 3; uniform delays in Table 4; Table 6 | `Mega_Analysis` |
+| Realistic arrival in Table 4; Table 5; Table 7; Table 11 | `Final_Analysis` (`D1`-`D3`, `C1`, `E1`) |
+| Table S2 (DtACI, recency-weighted, label-shift weighted) | `Conformal_Prediction_Credit_Risk_RUN` (`19a_dtaci`, `19b_barber_weighted`, `15c_label_shift_conformal`) |
+| Sections 3.2 and 4.5; Tables 8-10; Prosper rows of Tables 3, 5, 7 and 11 | `Prosper_Replication` (`P1`-`P13`) |
 | Section 3.6 and loan-level checks in Sections 4.1, 4.2, 4.4 and 4.5 (ties, assumption A1, exact ranking cut, 1,000-repeat random halves, calibration size with an exchangeable benchmark, kappa) | `Final_Analysis` section G (`G1`-`G5`); `Prosper_Replication` section 6 (`P14`-`P17`) |
-| Section 4.7; Tables 14-15; Figures 7-8 | `Extensions` (`E1`-`E3`) |
+| Section 4.7; Table 12; Table S3; Figures 7-8 | `Extensions` (`E1`-`E3`); `Reviewer_Checks_v2` (`R6`) |
+| Table 13 (six checks for lenders) | summarises Sections 4.1-4.7 |
+| Additional file 2 (Tables S1-S3, Notes S1-S6) | `supplement/Additional_file_2.docx` |
 | Robustness paragraphs in Sections 4.1 and 4.5; winsorised profit (Section 4.4) | `Audit_and_Robustness` (`B`, `C1`-`C4`) |
 | Inference checks cited in Sections 4.1-4.7 | `Reviewer_Checks_v2` (`R1`-`R17`) |
 | Propositions 1-5 and the Appendix (numbers derived from them) | `code/check_analytical_results.py` |

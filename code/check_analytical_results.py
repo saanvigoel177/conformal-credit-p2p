@@ -2,8 +2,8 @@
 the paper derives from them.
 
 Inputs are copied from named files. Most come from the replication package (results/...).
-Two come from the manuscript itself, and are marked: defaulter coverage by year (Table 13)
-and the break-even targets (Table 9).
+Two come from the manuscript itself, and are marked: defaulter coverage by year (Table 11)
+and the break-even targets (Table 7).
 
 Checks of stated numbers have a failure control, a planted fault that must make them fail.
 A few structural checks (simulated stability, the Beta law at one n) have none. The script exits
@@ -32,7 +32,7 @@ def control(name, still_passes):
 # ======================================================= Proposition 1
 # (a) Identity (4) with eps0 = 0.
 #   pi:  reviewer_checks/tables/R17_number_audit.csv (recomputed)
-#   c1:  manuscript Table 13, row "Lending Club, all labels" (3 decimals)
+#   c1:  manuscript Table 11, row "Lending Club, all labels" (3 decimals)
 #   Cov: reviewer_checks/tables/R4_permutation_tests.csv (observed, baseline)
 #   eps0 = 0: reviewer_checks/tables/R16_empty_set_shares.csv (static LC: empty 0, only_1 0)
 lc = {2013: (0.1204, 0.317, 0.91778), 2014: (0.1332, 0.268, 0.90252), 2015: (0.1440, 0.236, 0.88995)}
@@ -82,7 +82,7 @@ for yr in printed: print(f'  {yr}: base-rate {split(yr)[0]:+.2f}, defaulter-cove
 check('C1 split printed in Section 4.1 (2015: -0.76/-0.24; 2013: +1.0/+0.8)', printed_ok())
 control('C1 split with the two terms swapped', printed_ok(swap=True))
 
-# Section 4.7: per point of default-rate change the annual response is -1.33 (2013) and -0.99 (2015)
+# Additional file 2, Note S6: per point of default-rate change the annual response is -1.33 (2013) and -0.99 (2015)
 resp = {yr: (lc[yr][2] - 0.90) / (lc[yr][0] - pi12) for yr in (2013, 2015)}
 check('C1 annual response per point of default rate: -1.33 (2013), -0.99 (2015)',
       round(resp[2013], 2) == -1.33 and round(resp[2015], 2) == -0.99)
@@ -93,7 +93,7 @@ control('C1 annual response computed against 0.89 instead of Cov_cal = 0.90',
 # Per-applicant components: reviewer_checks/tables/R14_breakeven_sensitivity_specificity.csv,
 # note rows. In the R14 code, R = profit of auto-rejected loans (used as A), P0 = profit of
 # referred repayers (G), P1 = profit of referred defaulters (L = -P1), F = funded amount of
-# referred loans. Targets: manuscript Table 9. Table 9 was itself computed with this formula,
+# referred loans. Targets: manuscript Table 7. Table 7 was itself computed with this formula,
 # so this check tests transcription and arithmetic, not an independent derivation.
 comp = {
     'LC static':             (0.0,  259.1, 139.7, 1552, 0.650, 0.689),
@@ -107,7 +107,7 @@ def qstar(A, G, L, F, c, drop_A=False): return (G + (0 if drop_A else A) + c * F
 def table9_ok(drop_A=False):
     return all(abs(qstar(A, G, L, F, 0, drop_A) - q0) <= 0.0015 and abs(qstar(A, G, L, F, 0.01, drop_A) - q1) <= 0.0015
                for A, G, L, F, q0, q1 in comp.values())
-check('P3 equation (9) reproduces Table 9 (6 policies x 2 costs)', table9_ok())
+check('P3 equation (9) reproduces Table 7 (6 policies x 2 costs)', table9_ok())
 control('P3 equation (9) with the auto-reject term A dropped', table9_ok(drop_A=True))
 A, G, L, F = comp['LC static'][:4]
 check('P3 asymmetric break-even, LC static: q0=0.7 -> 0.557, q0=0.9 -> 0.186 (R14: 0.55662, 0.18554)',
@@ -172,7 +172,7 @@ control('P2 fastest damping evaluated with lag k = d', abs(grid[np.argmin([rho(a
 check('P2 gain 2.5 is 9 to 37 times the bound for 6- to 24-month delays',
       round(2.5 / bound(6)) == 9 and round(2.5 / bound(24)) == 37)
 
-# Empirical statements in Section 4.3 (reviewer_checks/tables/R9_gain_sweep.csv, LC, pooled column).
+# Empirical statements in Section 4.3 and Additional file 2, Note S3 (reviewer_checks/tables/R9_gain_sweep.csv, LC, pooled column).
 # These describe the sweep relative to gain 0.01, as the text says. They do not test
 # Proposition 2: the grid is too coarse to locate a threshold.
 sweep = {6:  {0.01: 0.90563, 0.03: 0.90319, 0.1: 0.89772, 0.25: 0.89992, 0.5: 0.87758, 1.0: 0.85024, 2.0: 0.78616, 4.0: 0.66194},
@@ -202,7 +202,7 @@ controls = [('LC 2012', 41703, 0.0026), ('LC 2015', 263943, 0.0012), ('Prosper B
 ratio = {nm: obs / sd_halves(N) for nm, N, obs in controls}
 for nm, N, obs in controls: print(f'  {nm}: predicted sd {sd_halves(N):.5f}, observed {obs}, ratio {ratio[nm]:.3f}')
 pros = [v for k_, v in ratio.items() if k_.startswith('Prosper')]
-# Section 4.5 statement: Prosper 50-repeat ratios 0.92-1.10, within about one SE.
+# Additional file 2, Note S5: Prosper 50-repeat ratios 0.92-1.10, within about one SE.
 check('P4 Prosper 50-repeat ratios 0.92-1.10', round(min(pros), 2) == 0.92 and round(max(pros), 2) == 1.10)
 control('P4 Prosper 50-repeat ratios with the test term dropped', round(min(v / sd_halves(N, drop_test=True) * sd_halves(N) for (_, N, _), v in zip(controls[2:], pros)), 2) == 0.92)
 # "within about one standard error": relative SE of an sd from 50 repeats is about 1/sqrt(98) = 0.10
@@ -226,7 +226,7 @@ check('G1: more than 98.5% distinct; 0.10% of 2012 loans above 1/2 (baseline); e
       min(g1_distinct) > 0.985 and round(100 * g1_above_half_cal_baseline, 2) == 0.10 and all(e == 0 for e in g1_eps0_cal))
 control('G1 with the withdrawn Prosper wording "more than 99.8% distinct"', min(g1_distinct) > 0.998)
 g2 = [(True, -119.46193, -119.46193), (True, -705.60346, -705.60346), (True, -124.17628, -124.17628), (True, -798.5342, -798.5342)]
-check('G2: Lending Club conformal approved sets identical to the ranking cut; gains equal to the cent (-119.46, -705.60, Table 8)',
+check('G2: Lending Club conformal approved sets identical to the ranking cut; gains equal to the cent (-119.46, -705.60, Table 6)',
       all(s_ and abs(a_ - b_) < 0.005 for s_, a_, b_ in g2) and round(g2[0][1], 2) == -119.46 and round(g2[1][1], 2) == -705.60)
 control('G2 linear interpolation of the 90%/80% frontier points (-120.07) as the exact value', abs(-120.07 - g2[0][1]) < 0.005)
 g3 = {'2012': (0.0029, 0.00294, 0.98809), '2015': (0.00118, 0.00117, 1.00687)}
@@ -273,7 +273,7 @@ p15 = [(True, -242.60424, -242.60424), (True, -525.07313, -525.07313), (True, -1
        (True, -384.99993, -384.99993), (True, -474.63324, -474.63324), (True, -363.40467, -363.40467), (True, -460.53758, -460.53758)]
 check('P15: all 8 conformal approved sets identical to the ranking cut; gains equal to the cent; B baseline static -242.60',
       all(s and abs(a - b) < 0.005 for s, a, b in p15) and round(p15[0][1], 2) == -242.60)
-control('P15 compared with the Table 12 value at one decimal (-242.6) as if exact to the cent', round(p15[0][1], 2) == -242.6 + 0.01)
+control('P15 compared with the Table 10 value at one decimal (-242.6) as if exact to the cent', round(p15[0][1], 2) == -242.6 + 0.01)
 p16 = [0.9893, 1.00842, 1.0187, 0.98579, 0.97836, 1.0109, 0.9804]                     # P16 ratio, no jitter (jitter rows identical)
 check('P16: 1,000-repeat ratios 0.98-1.02, SE 0.022 (1/sqrt(2*999))',
       round(min(p16), 2) == 0.98 and round(max(p16), 2) == 1.02 and round(1 / math.sqrt(2 * 999), 3) == 0.022)
